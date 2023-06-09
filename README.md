@@ -9,6 +9,8 @@ the time period of the 3030s and the early 3040s.
 Note that these additional events will only be triggered if you use a mod of the Battletech that expands the timeline of the game
 such as "BattleTech Extended 3025-3061" which has been focus of this work.
 
+Instractions to where to copy these files is found on the https://github.com/Warenwolf/News-Events-Expanded/wiki
+
 
 
 License: CC-BY-NC-SA-4.0
