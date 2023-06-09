@@ -1,0 +1,80 @@
+{
+  "Description": {
+    "Id": "3040-06-15",
+    "Name": "Federated News Services",
+    "Details": "<b>Chancellor Romano nationalizes all private property in Capellan Confederation</b>\r\n\r\n\r\nIn a surprising move that has left economic experts baffled and political analysts astonished, Chancellor Romano Liao has announced the nationalization of all private assets in [[DM.Factions[faction_Liao],Cappellan Confederation]]. \r\n\r\nPrevious owners, unless deemed enemies of the state, will become caretakers of these assets on behalf of the Confederation.\r\n\r\n\r\nWhile the Sian media officially explains this as a necessary step for a nation supposedly surrounded by enemies, critics argue that it also strips the nobles, known as \"Sheng\" among Capellans, of their economic power. Although they are not directly dispossessed, Chancellor Romano has seized almost all their property and reduced their incomes to meager amounts.",
+    "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "Federated News Services",
+            "Details": "It is worth noting that since the end of hostilities between our nation and the Capellans, followed by the war with the Andurian-Canopian alliance, the [[DM.Factions[faction_Liao],Cappellan Confederation]] has undergone a significant militarization of all aspects of society.\r\n\r\n This trend began during their war against the Andurian-Canopian alliance, with the prohibition of civilian production and a shift towards military production. Many observers assumed that these measures would cease after the war, but that has not been the case.\r\n\r\nMany of the Capellan Confederation's neighbors wonder now whether this societal militarization serves as a precursor to future aggression from the Capellans.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.<\i>",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}
