@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3038-11-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Battle of Lopez Over - Conquista Invaded</b>\r\n\r\nThe long battle in [[DM.SystemDefs[starsystemdef_Lopez],Lopez]] is drawing to a close after almost three months of heavy fighting.\r\n\r\nIn space around [[DM.SystemDefs[starsystemdef_Conquista],Conquista]], a battle lasting nearly a week has concluded, with the FWLM aerospace forces emerging victorious. The [[DM.Factions[faction_MarikA6],6th Marik Militia]] has secured a beachhead on the planet, swiftly joined by the [[DM.Factions[faction_MarikA3],2nd Free Worlds Guards]] and the [[DM.Factions[faction_MarikC8],Atrean Hussars]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The Battle of Lopez proved to be a challenging endeavor for FWL forces, as their battlemech advantage was offset by a significant number of rebel tank and infantry forces supporting the defending [[DM.BaseDescriptionDefs[LoreDefendersOfAndurien],6th Defenders of Andurien]].\r\n\r\nThe FWLM employed a maneuvering battle strategy, leveraging the inherent mobility of their battlemechs to counter the rebels' numerical superiority. Despite the intense fighting that nearly escalated into a pitched battle, which the FWLM aimed to avoid, luck favored the loyalists at every turn. Finally, after three months of combat and mounting losses, the 6th Defenders decided to initiate a retreat from the planet.\r\n\r\nThis concludes the CNB November broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

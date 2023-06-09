@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3038-08-15",
+        "Name": "ComStar News Bureau", 
+        "Details": "<b>Ryerson's Fall Imminent - Lopez Invaded</b>\r\n\r\nThe Duchy of Andurien has made a strategic decision not to contest the invasion of [[DM.SystemDefs[starsystemdef_Ryerson],Ryerson]] by the FWL [[DM.Factions[faction_Marik]]]. Instead, they have opted to let local forces delay the invaders for as long as possible.\r\n\r\nSimultaneously, the planet of [[DM.SystemDefs[starsystemdef_Lopez],Lopez]] is currently under FWL invasion, with military analysts predicting a prolonged battle.\r\n",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The FWL invasion of Ryerson is met by unexpected opposition from the 2nd and 4th Marik Militia, consisting primarily of militia forces with only a few mechs available. The invaders swiftly neutralize the disorganized militia formations, with the highly mobile  <i>4th Marik Militia</i> flanking them while the <i>2nd Marik Milita</i> pins down the opposing formation. The combination of local numerical superiority and multi-sided attacks quickly eliminates the inexperienced rebel militia forces.\r\n\r\nThis concludes the CNB August broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

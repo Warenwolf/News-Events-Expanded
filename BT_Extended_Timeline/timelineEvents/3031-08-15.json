@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3031-08-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Andurian War update - Drozan declared pacified</b>\r\n\r\nDespite heavy losses, the Magistracy Armed Forces suffered in their anti-insurgency campaign, the change of tactics back in May finally yielded dividends during the fighting in the last two months. In the beginning of August, the Canopians declared that the Capellans have no more effective fighting force left on Drozan.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The odds were always stacked against Capellan [[DM.Factions[faction_LiaoA4],Warrior House Dai Da Chi]], but in the first six months of fighting, they always seemed to have the upper hand opposing the invading MAF forces.\r\n\r\nOn paper, the invading MAF had a superior force, deploying the regular <i>1st Canopian Light Horse regiment</i> along with a mercenary component consisting of the <i>Harcourt's Aliens</i> light battalion and <i>Caesar's Cohorts</i> regiment.\r\n\r\nAll deployed MAF units were familiar with irregular warfare and fighting CCAF. However, the lack of coordination between invading units and the fanatical resistance from Dai Da Chi, coupled with patriotic support from the local population, ensured that the Canopians struggled to prevail in what was supposed to be a simple campaign.\r\n\r\nHowever, the change of tactics back in May and more aggressive attacks from the MAF finally tipped the scales, and the Dai Da Chi warriors seem to have either been all eliminated or have melted into the population.\r\n\r\nWe will provide more updates on the situation as more information becomes available from Drozan.\r\n\r\nThis has been the CNB August broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

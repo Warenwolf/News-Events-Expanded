@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3034-11-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Ronin defeated</b>\r\n\r\nBoth official statements and reports from third parties now confirm that, for all practical purposes, the Ronin have been defeated militarily.\r\n\r\nThere was a fear that the remaining Ronin forces on [[DM.SystemDefs[starsystemdef_Radstadt],Radstadt]] and [[DM.SystemDefs[starsystemdef_Memmingen],Memmingen]] would attempt a last act of defiance, similar to the Ronin holdouts in [[DM.SystemDefs[starsystemdef_Predlitz],Predlitz]] during the last days of August.\r\n\r\nSho-sho Johannsen, along with three other Ronins, intended to make the fusion reactor buried in a mining colony go critical.\r\n\r\nBy quick reaction and a great deal of luck, Sho-sho Johannsen's Battlemaster was crushed only meters away from the optimal firing range when Republican Lojtnant Martens blasted through the cavern's ceiling and his Charger fell on top of the Ronin commander's mech.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Radstadt's Ronins, remains of 49th Mechanized Tank and the 603rd Tank regiments gave up when republican forces were reinforced by additional troops.\r\n\r\nOn the 29th of last month, Kashira Barker — the last ranking officer of the Ronin holdouts on Memmingen — approached a DCMS patrol with a white sheet tied to his Dragon's left arm. His surrender signaled the surrender of the rest of the Ronin forces on the planet.\r\n\r\nWith this surrender there are no significant Ronin forces remaining in this war.\r\n\r\n\r\n\r\nMeanwhile, the Andurien Crisis is still ongoing, with [[DM.SystemDefs[starsystemdef_NewRoland],New Roland]] invaded by [[DM.Factions[faction_LiaoA4],Warrior House Dai Da Chi]] and [[DM.Factions[faction_LiaoC10],Kamakura's Hussars]]. Many outside observers consider a Capellan victory almost certain.\r\n\r\nThis has been the CNB November broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

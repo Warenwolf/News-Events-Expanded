@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3035-02-10",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Whitworth Specialty Manufacturing to be incorporated on Benjamin in the Draconis Combine</b>\r\n\r\nThe new factory lines on [[DM.SystemDefs[starsystemdef_Benjamin],Benjamin]] are set to start manufacturing spare parts specific to the Whitworth WTH-1 design sometime during this year.\r\n\r\nThe Whitworth was first built in 2610 as a scout intended to fill the gap between the light scout mech Wasp and the medium Phoenix Hawk designs. It is slower than a Wasp or Phoenix Hawk and has a rather faulty actuator system in the hips and legs that could cause the legs to tear loose during more aggressive maneuvering. As a result, this design has a somewhat mixed reputation.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Despite its bad reputation, the Whitworth saw heavy historical use and has consequently suffered greatly in the wars during the last centuries. Most experts agree that there are less than 300 Whitworths left of all variants.\r\n\r\nThe standard  [[DM.MechDefs[mechdef_whitworth_WTH-1],Withworth WTH-1]] is armed with twin Longbow LRM 10 launchers and triple Intek medium lasers, with one laser mounted in the head and one laser in each arm. Generally, it is used as a support mech for other mechs in the lance.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

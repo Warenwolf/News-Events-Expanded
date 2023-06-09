@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3032-05-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Big Mac joins the fight for Betelgeuse</b>\r\n\r\n\r\nTwo weeks ago, Andurien press releases indicated that they expected Betelgeuse to fall within a couple of weeks. It was easy to understand their confidence since two additional Defenders formations, the Third and Fourth, joined the initial invading force consisting of the First and the Tooth of Ymir mercenary company, fulfilling Dame Humphreys' vow from last year that significant forces would be committed to ensure Betelgeuse’s incorporation into Andurien.\r\n\r\nOnly a bit over a month ago, the invading force managed to eliminate the CCAF reinforcing formation, the Prefectorate Guard. As more and more of the planet fell under Andurien's sway, the campaign looked as good as won by the Anduriens.\r\n\r\nThen everything changed. On 9th May, all of McCarron’s Armored Cavalry's five regiments dropped on Betelgeuse...",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "McCarron’s Armored Cavalry, also known as The Big Mac, is one of the most famous mercenary units in Capellan employment, with a near legendary history of successful operations. However, the 4th Succession War had cost the mercenaries a lot in manpower and equipment. Since for much of the latest war they have sat idle, many analysts assumed that they too had been decimated like many other units in Capellan employ.\r\n\r\nLast week has proven that McCarron’s Armored Cavalry is now fully operative as they have pushed back the invading force to the starting point. There are indications that the 1st Defenders are being used as a rear guard, which implies that other units are planning to retreat from the planet, resulting in another strategic loss for the Duchy of Andurien.\r\n\r\nThis has been the CNB May broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

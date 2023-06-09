@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3035-10-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>FWLM conducts raids on several systems</b>\r\n\r\n\r\n[[DM.Factions[faction_Marik],Free Worlds League]] continues its raids on Andurian systems, with the most recent targets being  [[DM.SystemDefs[starsystemdef_Conquista],Conquista]] and [[DM.SystemDefs[starsystemdef_Shiro],Shiro III]] attacked simultaneously.\r\n\r\n\r\nWhile the attacks on Conquista appeared to be simple probing attacks, the combat on Shiro III was a short but brutal affair. After five days on Shiro III, the FWLM withdrew to their DropShips and escaped. They suffered losses of two lances of BattleMechs in the raid but inflicted heavy casualties on Andurien forces as well.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "It is assumed that the increased fighting along the border of the Duchy of Andurien and the Free Worlds League will lead to a greater demand for mercenary companies by both parties.\r\n\r\n\r\n\r\nThis has been the CNB October broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

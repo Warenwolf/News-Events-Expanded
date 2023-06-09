@@ -1,0 +1,83 @@
+{
+    "Description": {
+        "Id": "3031-02-10",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>St. Ives Compact to introduce new Vindicator variant?</b>\r\n\r\nAnonymous sources inside the military establishment of the [[DM.Factions[faction_Ives],St. Ives Compact]] are providing us with news about the government's plan to introduce a new variant of the Vindicator battlemech. The new variant, although not yet confirmed, is expected to be named the [[DM.MechDefs[mechdef_vindicator_VND-1SIC],Vindicator VND-1SIC]].\r\n\r\nThe Vindicator has a reputation for being an affordable and resilient medium mech, although it doesn't excel in any particular area. It has been predominantly used by the Capellan Confederation, deployed in almost every unit and role in the CCAF. However, it has been a rare sight outside the Confederation and among mercenaries, mainly due to the outrageous markup that Ceres Metals Industries imposes on parts sold outside the Confederation.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "After undergoing major territorial changes during the 4th Succession War, the Capellan Confederation lost control over [[DM.SystemDefs[starsystemdef_St. Ives],St. Ives]]. With Ceres Metals Industries' St. Ives factories Vindicator production lines under new management, the rulers of the St. Ives Compact possess both the production capacity and expertise to create a new version of the Vindicator battlemech.\r\n\r\nCompared to the [[DM.MechDefs[mechdef_vindicator_VND-1R],standard]] Vindicator 1R variant, the new [[DM.MechDefs[mechdef_vindicator_VND-1SIC],VND-1SIC variant]] replaces the PPC with a Large Laser system and upgrades the LRM-5 rack to an LRM-10 missile rack.\r\n\r\nThis concludes the CNB February broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
+

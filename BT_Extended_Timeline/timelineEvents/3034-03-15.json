@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3034-03-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>New state declares independence in the territory of the Rasalhague Military District</b>\r\n\r\n\r\nYesterday a new state saw the light when Elected Prince Haakon Magnusson read \"Declaration of Freedom\" from the rotunda at the base of the Freedom Building on [[DM.SystemDefs[starsystemdef_Rasalhague],Rasalhague]], declaring the creation of the \"Free Rasalhague Republic\".\r\n\r\nThe declaration of independence, surprising the major nations of Inner Sphere, was met enthusiastically by the population of the new state and a surprisingly measured response by Coordinator Kurita.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The newly founded [[DM.Factions[faction_Rasalhague],Free Rasalhague Republic]] is laying claim to all systems within DCMS's former Rasalhague Military District, which besides systems controlled by Draconis Combine also covers systems recently conquered by Lyran Commonwealth.\r\n\r\nComStar’s First Circuit was the first to acknowledge the new republic and is pledging to maintain HPG service in the territories claimed by the new state, graciously offering a small discount for the new nation for a period of two years.\r\n\r\nToday the Office of Coordinator followed suite with Federated Suns declaring their recognition of the new state soon after. \r\n\r\n\r\n\r\nThis has been the CNB March broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

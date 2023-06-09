@@ -1,0 +1,81 @@
+{
+  "Description": {
+    "Id": "3034-04-15",
+    "Name": "ComStar News Bureau",
+    "Details": "<b>Free Rasalhague Republic independence declaration sparks riots and violence.</b>\r\n\r\n\r\nDespite Coordinator Kurita's acceptance of the new Republic's independence and his order to withdraw the DCMS from the new state, some units are refusing to comply.\r\n\r\nThe declaration and subsequent recognition from Archon Katrina Steiner also sparked violence and riots on Lyrian-held planets.\r\n\r\nOn [[DM.SystemDefs[starsystemdef_Kandis],Kandis]] planet, Governor Brenda Richert refused to hand over her office to newly appointed Republican officials. She tragically died in the fighting that broke out later that day but is already being hailed as a martyr throughout the Tamar Pact region of the Commonwealth.",
+    "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "ComStar News Bureau",
+            "Details": "On [[DM.SystemDefs[starsystemdef_Rasalhague],Rasalhague]] planet, the withdrawal order to the <i>8th Rasalhague Regulars</i> and the <i>12th Sun Zhang Academy Cadre</i> in the early morning hours of March 14th resulted in a battle with the Republican <i>First Tyr</i>. Details are not yet clear, but witnesses confirm that rebel DCMS troops attacked first.\r\n\r\nThe Rebel 9th Rasalhague Regulars invaded [[DM.SystemDefs[starsystemdef_Engadin],Engadin]], killing most of the new planetary officials before declaring martial law.\r\n\r\nSimilar events are also happening in [[DM.SystemDefs[starsystemdef_Predlitz],Predlitz]], [[DM.SystemDefs[starsystemdef_Heiligendreuz],Heiligendreuz]], and [[DM.SystemDefs[starsystemdef_Memmingen],Memmingen]]. In Memmingen, rebels even tried to seize the [[DM.BaseDescriptionDefs[LoreHPG],HPG]] compound, forcing a ComStar DropShip to provide defense to repel the attack.\r\n\r\nBut the greatest crime happened in [[DM.SystemDefs[starsystemdef_Trondheim(DC)],Trondheim]], where three thousand people died in the six-hour artillery barrage of the ancient city by the rebelling DCMS forces. This attack has outraged the public and inflamed emotions throughout the new state.\r\n\r\nThis event has also been a catalyst for accelerating the rate of Rasalhague natives leaving DCMS units to join the KungsArmé, the newly formed armed forces of the Free Rasalhague Republic.\r\n\r\nThis has been the CNB April broadcast.",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}
+

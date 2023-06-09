@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3035-10-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Duncan Marik orders largest FWLM military maneuvers since 3030</b>\r\n\r\n\r\nDespite official sources remaining silent, an increasing number of political analysts predict that the new Captain-General is planning military operations against the [[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]] in order to bring the wayward province back into the fold of the Free Worlds League.\r\n\r\nEver since the official report release on the bombing that killed Duncan’s father, former Captain-General Janus Marik, as well as his brother and nephew, which pinned the blame for the attack Duchy of Andurien, many in [[DM.Factions[faction_Marik],Free Worlds League]] have called for military action.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The Captain-General has departed Atreus for the frontlines, leaving the Parliament to handle the political and administrative tasks of the League.\r\n\r\nBy personally taking charge of the FWLM, assembling military formations near the border, and now initiating military exercises, many are now convinced that Duncan Marik intends to lead the Free Worlds League into war against the Duchy of Andurien.\r\n\r\nThis has been the CNB August broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

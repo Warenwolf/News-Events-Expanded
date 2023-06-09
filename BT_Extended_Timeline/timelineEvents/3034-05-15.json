@@ -1,0 +1,80 @@
+{
+  "Description": {
+    "Id": "3034-04-15",
+    "Name": "ComStar News Bureau",
+    "Details": "<b>Violence in Free Rasalhague Republic continues; Renegade DCMS formations declared ronins; Crises in Skye</b>\r\n\r\nAs it becomes clear that renegade DCMS units that are refusing to accept that Free Rasalhague Republic is no longer part of [[DM.Factions[faction_Kurita],Draconis Combine]], are not random but are all part of Warlord Cherenkoff and Warlord Marcus Kuritas commands.\r\n\r\nWith Cherenkoff dying recently, it seems that now the overall leader of the rebellion is Warlord Marcus Kurita.\r\n\r\nKanrei Theodore Kurita has therefore sent a broadcast to all units in DCMS and all worlds bordering the Rasalhague Republic, which brands all renegade units as ronins:\r\n\r\n\"There are those who believe that to hearken to an older time is to further the purpose of the Dragon. They are wrong. The Dragon endures because it adapts and embraces progress without burying itself in obsolete beliefs. Those who oppose the will of the Dragon are therefore declared ronin, masterless warriors who think only of their own selfish desire and not the will of the Combine. To these ronin, I say: Lay down your arms and accept true honor, or follow your selfish course to a disgraceful and ignoble end.\"\r\n\r\nA few hours after this statement, Elected Prince Haakon Magnusson of Rasalhague sent a formal request to the Draconis Combine for assistance.",
+    "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "ComStar News Bureau",
+            "Details": "The fighting otherwise continues and has spread to [[DM.SystemDefs[starsystemdef_Bruben],Bruben]] system, where ronins have, among other places, attacked the [[DM.BaseDescriptionDefs[LoreHPG],HPG]] Station but were foiled by local forces.\r\n\r\nComStar condemns in the strongest terms repeated ronin attacks against HPG infrastructure and reiterates that it is not a party to the current conflict. ComStar also expresses the gravest concerns regarding civilian casualties in this conflict. So far, 493 civilian casualties have been reported from Bruben.\r\n\r\nIn the Federation of Skye region, major demonstrations are happening protesting the handover of the systems, to the newly declared Rasalhague Republic, that were taken during the 4th Succession War. On some planets, demonstrations are turning to riots, provoking military responses. Several hundred casualties have been reported so far.\r\n\r\n<b>Andurien War update</b>: Ishara's Grenadiers and Kincade's Rangers have taken [[DM.SystemDefs[starsystemdef_Renown],Renown]] for [[DM.Factions[faction_Liao],the Confederation]], unopposed with no shots fired.\r\n\r\nThis has been the CNB May broadcast.",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}

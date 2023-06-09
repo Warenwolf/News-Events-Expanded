@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3034-08-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Canopians surrender after less than a week of fighting; Ronin morale waning</b>\r\n\r\nOn the 9th of August, [[DM.Factions[faction_LiaoC10],Kamakura’s Hussars]] and the [[DM.Factions[faction_LiaoA15],5th McCarron’s Regiment]] launched an invasion on [[DM.SystemDefs[starsystemdef_Andarmax],Andarmax]]. Opposing them were <i>Magistracy Militia</i> regulars along with the mercenary companies <i>Killer Bees</i> and <i>McGraw’s Marauders</i>.\r\n\r\nAfter two days of intense fighting, the <i>Killer Bees</i> terminated their contract with the Magistracy and withdrew from the planet. Two days later, the heavily depleted <i>McGraw’s Marauders</i> managed to escape, while the Militia was completely wiped out.\r\n\r\nMeanwhile, in the Free Rasalhague Republic, the arrival of DCMS forces to fight alongside the KungsArmé brought relief and causing cracks in the Ronin resistance.\r\n\r\nThis is the CNB August broadcast.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "The broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "On [[DM.SystemDefs[starsystemdef_Kempten],Kempten]], despite recent successes, over half of the Ronins committed seppuku. The remaining Ronins chose imprisonment and eventual execution for their treason, once the DCMS reinforcement jumped into the system and the rebels surrendered.\r\n\r\nOn the 5th of August, on [[DM.SystemDefs[starsystemdef_Predlitz],Predlitz]], pro-republican forces caught the Ronin in a destructive artillery bombardment, disabling a significant portion of their remaining mech forces. Whether more forces remain on the planet remains to be seen.\r\n\r\nThis concludes the CNB August broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

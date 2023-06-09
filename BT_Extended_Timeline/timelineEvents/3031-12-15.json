@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3031-12-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Black Widow Battalion available for hire again</b>\r\n\r\n\r\nRecently, a holovideo from the Black Widow Battalion has been received by many military leaders in the Inner Sphere. It announces that [[DM.Factions[faction_BlackWidowCompany],Black Widow Company]], a semi-independent sub-unit of the famous <i>Wolf Dragoons</i>, has been upgraded to a battalion-sized unit (hence the new name) and is now available for hire.\r\n\r\nWhile the content of the holovideo doesn't differ much from the standard promotional material these days, what caught the attention of many is the higher-than-usual price tag and the preference for piece work over long-term contracts.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "While the famous (or infamous, depending on your view) [[DM.BaseDescriptionDefs[LoreBlackWidow],Natasha Kerensky]] is well-known for her piloting skills with her trademark Warhammer mech and has an established CV in the market, many note that the current market is flooded with mercenaries due to waves of demobilization after the 4th Succession War.\r\n\r\nWhat Colonel Kerensky brings to the table is a battalion of 28 mechs divided into two companies, along with a commanding lance, an Aerospace company, and an infantry company.\r\n\r\nThis has been the CNB December broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

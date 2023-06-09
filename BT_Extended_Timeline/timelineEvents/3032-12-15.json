@@ -1,0 +1,80 @@
+{
+  "Description": {
+    "Id": "3032-12-15",
+    "Name": "ComStar News Bureau",
+    "Details": "<b> The Saranak Accords signed</b>\r\n\r\n\r\nAfter losing the battle for Wallacia due to fierce opposition from Black Widow mercenaries, FWL decided to solve its differences with [[DM.SystemDefs[starsystemdef_Kujari],Kujari]] and [[DM.SystemDefs[starsystemdef_Wallacia],Wallacia]] diplomatically.\r\n\r\nAfter two months of negotiation, the parties finally agreed on the wording of the final document.",
+    "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "ComStar News Bureau",
+            "Details": "Kujari and Wallacia will become \"associates of the Free Worlds\", legally independent but notionally part of the Free Worlds League.\r\n\r\nWhile the solution to the problem was found on the negotiating table, there is no doubt that the actions of [[DM.BaseDescriptionDefs[LoreBlackWidow],Col. Natasha Kerensky]] and her Black Widow Battalion mercenaries on the battlefield created the necessary framework for a diplomatic solution.\r\n\r\n\r\nThis has been the CNB December broadcast.",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}

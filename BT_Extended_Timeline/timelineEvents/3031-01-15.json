@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3031-01-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Political crises in Free Worlds League resolved?</b>\r\n\r\nThomas Marik appeared earlier this week before Parliament with verigraphed documents to support his claim that Janos Marik himself legally appointed him as his successor. This resolves the several months of political deadlock in the [[DM.Factions[faction_Marik],Free Worlds League]] that ensued after the current Captain-General Janos Marik suffered a severe stroke, rendering him unable to fulfill his duty as Captain-General.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Since October of last year, Parliament has been deadlocked on who the legitimate successor of Janos Marik is. Members of Parliament were divided in their support for either the son of Janos, Duggan Marik, or his nephew Duncan Marik, with neither contender able to secure a majority.\r\n\r\nAfter today’s presentation of his claim and the supporting evidence, Thomas Marik has garnered support from the majority of Parliament, including some of the most influential figures in the [[DM.Factions[faction_Marik],Free Worlds League]]: Duke Halas, MP Shane Eastwick, and SAFE director Jaime Cornel.\r\n\r\nParliament has bestowed upon Thomas Marik the title of “Warden of the Perimeter Defenses,” while his father retains the title of Captain-General.\r\n\r\nThis concludes the CNB January broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

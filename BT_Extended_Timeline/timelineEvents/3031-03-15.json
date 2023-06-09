@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3031-03-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b><i>Carson's Renegades</i> mercenary company barely avoids destruction while raiding [[DM.SystemDefs[starsystemdef_Hexare],Hexare]] system.</b>\r\n\r\nAs with their previous raids, the Renegades, these days under a two-year contract for the Duchy of Andurien, took control of the world after a short, barely week-long campaign, eliminating the local militia as an effective fighting force. However, this time they struck a planet which was too deep in Capellan territory, and reinforcements were quick to arrive. Fortunately for them, the [[DM.BaseDescriptionDefs[LoreLiaoCCAF],CCAF]] seemed unable to capitalize on their surprise, committing a series of tactical blunders.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "[[DM.BaseDescriptionDefs[LoreDameCatherine],Dame Humphrey's]] strategy in her war with the Capellan Confederation seems to be to augment regular warfare with raids on various Capellan systems. This is, of course, both a war on logistics and the psychology of her enemy, but it also presents a strategic conundrum for the CCAF, which now has to guess whether a raid is another hit-and-run attack or a full-sized invasion.\r\n\r\n<i>Carson's Renegades</i> have been used in the last 7 months of the war to conduct such raids. In their case, they raided both the Altorra and Fronde systems last year. The raid on Hexare was likely another such attack.\r\n\r\nThe reactionary force from the CCAF, consisting of the <i>Prefectorate Guards</i>, arrived at a pirate point in the Hexare system and caught the Renegades still engaged in their resupply operations.\r\n\r\nHowever, a combination of clever tactics by the Renegades and equally unimaginative attacks by Guard battalions allowed the Renegades to surprise the Guard at every turn, engaging in delaying actions until they successfully broke contact and managed to reach orbit with their DropShips. The pursuing Guard force was completely unable to stop them.\r\n\r\n\r\nIn other news, a similar raid on [[DM.SystemDefs[starsystemdef_Ingersoll],Ingersoll]] by the <i>5th Defenders of Andurien</i> was repelled by the  [[DM.Factions[faction_LiaoC6],Fifth Confederation Reserve Cavalry]].\r\n\r\n\r\n\r\nThis has been the CNB March broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

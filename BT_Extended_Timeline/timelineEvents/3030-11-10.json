@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3030-11-10",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Question: What's a Lyran's favorite recon unit?\r\n\r\nAnswer: A Charger in enemy hands.</b>\r\n\r\n\r\nLuthien Armor Works has announced that this year's production run of a much maligned mech design - [[DM.MechDefs[mechdef_charger_CGR-1A1], Charger CGR-1A1]] - is going to be the last one. \r\n\r\nDesigned by former LAW licensee Wells Tech, which itself closed doors three years ago after a LAW buyout, as a high-speed, assault-sized recon battlemech that sported false weapon mounts, the design is widely considered to be a failure.\r\n\r\nThe problem with the design is that most of the space in the seemingly huge Wells 900 chassis is taken up by an enormous LTV 400 power plant. After armor had been added, there was only space for five small lasers (this is not a typo).",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": [],
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "What saved the Charger from being forgotten and old Wells Tech from bankruptcy was [[DM.BaseDescriptionDefs[LoreSuccessionWars], the endless warfare]] in the Inner Sphere, which saw desperate warring states adopting any mech they could get their hands on.\r\n\r\nAlthough found all over known space, most Chargers these days are in Kurita hands, due to exclusive production rights they had for Chargers, with the Lyrans, who are using their Chargers in their scout lances, being a distant second.\r\n\r\nThe few users out in the Periphery have somewhat more appreciation for the design since the Charger is somewhat capable of dealing with lighter mech designs dominating the battlefields of Periphery states.\r\n\r\nIt is worth noting that even this battlemech has its famous pilots - Ninth Illician Rangers' mechpilots Terry Ford piloted his Charger \"Number Seven\" with a modicum of success until he died, proving the old adage that it is mechwarrior quality and not mech quality that decides the fight...\r\n\r\nThis has been the CNB November broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

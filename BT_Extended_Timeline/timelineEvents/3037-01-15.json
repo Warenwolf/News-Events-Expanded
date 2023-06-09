@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3037-01-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Thomas Marik Implements Political Changes in FWL</b>\r\n\r\nWhile Thomas Marik has not yet been formally appointed as the Captain-General, a title currently held by his brother Duncan Marik, our sources in the Parliament say that many consider him the de facto leader of the League.\r\n\r\nThrough a series of speeches, he has proposed an addendum to the Act of Incorporation, which further centralizes power and makes it easier for the Captain-General to wage war, while simultaneously abolishing the Home Defense Act that allowed a province to retain up to 75 percent of its military forces within its borders.\r\n\r\nSurprisingly to political pundits, the vote in the Parliament was in favor of Thomas Marik's proposal.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "<b>Update on war between FWL and Duchy of Andurien:</b>\r\n\r\nFWL forces on [[DM.SystemDefs[starsystemdef_Cursa], Cursa]] were surprised by a decapitating strike from Andurien forces.\r\n\r\nThe experienced loyalist troops were ill-prepared for the all-out assault on their positions by elements of the <i>4th Defenders of Andurien</i> who had been on-world when the invaders landed but were assumed to have retreated from the planet.\r\n\r\nThe battle is still raging as of the time of publishing this article.\r\n\r\nThis has been the CNB January broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

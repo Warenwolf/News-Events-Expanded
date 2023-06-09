@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3032-06-10",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Capellans to resume production of Cataphract mech</b>\r\n\r\n\r\nSoon after the last retreating Andurien left the [[DM.SystemDefs[starsystemdef_Betelgeuse],Betelgeuse]] on 23rd of May, Capellan regime decided on re-purposing Betelgeuse civilian industry to military production.\r\n\r\nOne of these refit projects will result in the restart of the production of Capellan's first recent heavy mech design – the [[DM.MechDefs[mechdef_cataphract_CTF-1X],Cataphract]].\r\n\r\nWhile already introduced in 3025, loss of Tikonov production lines in 3030 meant that for a time Capellans had no production lines for Cataphract, a situation this new edict seeks to remedy. Experts have noted that attrition in the current war has led to CCAF operating fewer and fewer Thunderbolts heavy mechs in their lances, so reintroducing production of this heavy mech would clearly fill a gap in CCAF inventories.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Cataphract is a heavy mech design born out of the desperate need for heavy mechs and the fact that generational warfare has reduced the ability of Capellan Confederation to produce anything more advanced than a Vindicator but not eliminated their part production capacity for various mech models.\r\n\r\nThrough clever redesign, designers have created a new heavy mech through the use of existing mech’s parts that Capellans have the ability to produce in large quantities.\r\n\r\nWhile being called FrankenMech due to this, in reality Cataphract is a capable mech with decent armor and the ability to both take and deal damage.\r\n\r\nThe [[DM.MechDefs[mechdef_cataphract_CTF-1X],Cataphract CTF-1X]] stock variant is based on Earthwerks CTF chassis and VOX 280 powerplant and is armed with one CeresArms Smasher PPC, a SarLon MaxiCannon Type 10 (AC/10 equivalent), and 4 CeresArms Medium Lasers. All of this comes at a mass of 70t.\r\n\r\nThe [[DM.MechDefs[mechdef_cataphract_CTF-2X],CTF-2X]] variant, on the other hand, adds two tons of armor at the expense of two heat sinks, offsetting the loss of heat sinks with the replacement of the PPC with a Firmir MaxiLase large laser system. The arm-mounted medium laser system on the left arm is replaced with an SRM 4 launcher system, and ammo for the autocannon has been increased.\r\n\r\nThis has been the CNB June broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,80 @@
+{
+  "Description": {
+    "Id": "3031-10-15",
+    "Name": "ComStar News Bureau",
+    "Details": "<b>Andurian War update - Shiba and Buenos Aires fall; Betelgeuse front still a stalemate</b>\r\n\r\n\r\nMany analysts and pundits are wondering these days how long Capellans can stay in the fight - so did the citizens of [[DM.SystemDefs[starsystemdef_Shiba],Shiba]] and [[DM.SystemDefs[starsystemdef_BuenosAires],Buenos Aires]] systems recently, which surrendered to [[DM.Factions[faction_Andurien],Andurien]] invaders with little opposition.\r\n\r\nIn other news, Dame Humphrey vows to send more troops to the Betelgeuse front after receiving news of her son's death. With the recent deaths of Major James Humphreys and General Mildred Humphreys in March, the war has now claimed the lives of two of Dame Humphreys' children.",
+    "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "ComStar News Bureau",
+            "Details": "[[DM.SystemDefs[starsystemdef_Betelgeuse],Betelgeuse]] front has been a stalemate for the Anduriens since April after initial gains with [[DM.Factions[faction_LiaoA8],Warrior House Kamata]] skillfully opposing General Garibaldi and his <i>1st Defenders of Andurien</i> and <i>Tooth of Ymir</i> mercenary invasion force. The balance of power briefly shifted to the defenders' side when [[DM.Factions[faction_LiaoA6],Warrior House Hiritsu]] joined the defenders in July by hot dropping into Andurian rear areas, causing considerable chaos. This forced General Garibaldi to detach forces for search and destroy missions to counter <i>Hirutsu</i>'s rampage.\r\n\r\nDuring one of those search and destroy missions, Major Humphreys' command company encountered an enemy detachment. The clash was short and brutal, resulting in significant losses on both sides.\r\n\r\nUnfortunately, the Major's cockpit was crushed when his crippled Mech fell.\r\n\r\nDame Humphreys stated that her son's death would not be in vain and that significant forces would be committed to ensure Betelgeuse's incorporation into Andurien.\r\n\r\nThis has been the CNB October broadcast.",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3035-04-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Observers confirm Janos Marik seems his old self; Skye Crisis continues</b>\r\n\r\n\r\nEver since Janos Marik resumed his duties and Thomas Marik's regency of the Free Worlds ended on 16th of March, many wondered how able the elderly Janos Marik would be leading the FWL.\r\n\r\n\r\nIn his recent speech to Parliament regarding the state of the League, such doubts were dispelled. While still using a cane to get around, his speech was clear, precise and concise.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "While overall tensions are calming down, riots in Skye and the Tamar Pact still occur, with the recent hostage taking and armed standoff with rioters at the New Glasgow plant as the latest example. These riots, seemingly triggered by the ceding of planets and territories captured in the Fourth Succession War to the newly established Rasalhague Republic, are thought by many experts to be related to dissatisfaction with the political union between Houses Steiner and Davion. Regardless of the reason, this presents a political headache to the political elites in the state.\r\n\r\n\r\n\r\nThis has been the CNB April broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

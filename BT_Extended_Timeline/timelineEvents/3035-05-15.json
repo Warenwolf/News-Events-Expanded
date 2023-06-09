@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3035-05-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Diplomatic Incident as Capellan forces rumored to have attacked Scarborough</b>\r\n\r\nSeveral sources report, albeit unconfirmed, that mercenaries in Capellan employ have struck the [[DM.SystemDefs[starsystemdef_Scarborough],Scarborough]] system.\r\n\r\nThe attack, on a former FWL planet currently under the control of the Duchy of Andurien, has drawn a clear message from Janos Marik to the Confederacy: the FWL will not tolerate Capellan incursions on any planets within its former territories.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Whether this raid, if confirmed, constitutes what House Marik would term an incursion, remains to be seen.\r\n\r\nIf indeed this raid is viewed as such an \"incursion\", it may very well be the first shots fired in another major war, this time between [[DM.BaseDescriptionDefs[LoreHouseMarik],House Marik]] and [[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]].\r\n\r\n\r\nThis has been the CNB May broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

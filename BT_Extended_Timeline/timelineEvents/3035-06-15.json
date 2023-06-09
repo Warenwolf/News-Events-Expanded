@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3035-06-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Investigation continues after bomb attack on Marik</b>\r\n\r\nDespite two weeks of investigation into the bomb attack that killed the head of the Free Worlds League, Janus Marik, his son Thomas Marik, and nephew Duggan Marik, along with many officials present, the official results have yet to be presented to the public.\r\n\r\nDuncan Marik, the sole survivor of the attack and the current acting leader of the Free Worlds League, vows to find and punish the responsible party.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The attack itself has shifted the focus of media and Inner Sphere diplomats from the current conflict flashpoints in the [[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]] and the [[DM.Factions[faction_MagistracyOfCanopus], Magistracy of Canopus]]. Dame Humphrey barely survived an assassination attempt from Capellan Death Commandos in the Duchy of Andurien, while at almost the same time, [[DM.SystemDefs[starsystemdef_Canopus],Canopus IV]], the capital world of the Magistracy, suffered a punitive expedition by Capellan forces.\r\n\r\nThis has been the CNB June broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

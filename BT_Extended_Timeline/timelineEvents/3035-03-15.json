@@ -1,0 +1,162 @@
+{
+    "Description": {
+        "Id": "3035-03-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Capellan Confederacy recovers all prewar territories</b>\r\n\r\n\r\nWith the retaking of [[DM.SystemDefs[starsystemdef_NewRoland],New Roland]] on 19th of February, the Capellan Confederation has officially recovered all the territories that the Canopian-Andurien alliance had conquered since 3030.\r\n\r\n\r\nPrompted by the great losses the Capellans suffered through the Fourth Succession War, the newly independent [[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]], previously part of the FWL, allied itself with the [[DM.Factions[faction_MagistracyOfCanopus],Magistracy of Canopus]] and struck at the Capellans, quickly overrunning a number of worlds in the next two years.\r\n\r\nHowever, in 3032, the Capellans proved that they, although greatly diminished in power, are still a force to be reckoned with, launching a great counter-offensive on Drozen and Betelgeuse that broke the Canopian-Andurien alliance forces. The Canopian-Andurien alliance has been losing ground ever since.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The great question many ask now is what Romano Liao plans next? Further advance in the Duchy of Andurien may be perceived as an infringement on territory the FWL still considers its own. And a war with the Magistracy may stretch the supply lines and forces beyond what is safe for a nation surrounded by hostile nations. Only time will tell what [[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]] will do next.\r\n\r\n\r\n\r\nThis has been the CNB March broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
+{
+    "Description": {
+        "Id": "3035-04-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Observers confirm Janos Marik seems his old self; Skye Crisis continues</b>\r\n\r\n\r\nEver since Janos Marik resumed his duties and Thomas Marik's regency of the Free Worlds ended on 16th of March, many wondered how able the elderly Janos Marik would be leading the FWL.\r\n\r\n\r\nIn his recent speech to Parliament regarding the state of the League, such doubts were dispelled. While still using a cane to get around, his speech was clear, precise, and concise.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "While overall tensions are calming down, riots in Skye and the Tamar Pact still occur, with the recent hostage taking and armed standoff with rioters at the New Glasgow plant as the latest example. These riots, seemingly triggered by the ceding of planets and territories captured in the Fourth Succession War to the newly established Rasalhague Republic, are thought by many experts to be related to dissatisfaction with the political union between Houses Steiner and Davion. Regardless of the reason, this presents a political headache to the political elites in the state.\r\n\r\n\r\n\r\nThis has been the CNB April broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

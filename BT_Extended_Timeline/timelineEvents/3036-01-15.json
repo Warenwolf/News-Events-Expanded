@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3036-01-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Free Worlds League takes control over Ingonish</b>\r\n\r\n\r\nThe attack on the planet [[DM.SystemDefs[starsystemdef_Ingonish],Ingonish]] by[[DM.Factions[faction_MarikC19],Iron Guard]] brushed aside the local resistance and secured a landing zone for the DropShips of the [[DM.Factions[faction_MarikC28],13th Marik Militia]] and [[DM.Factions[faction_MarikC1],3rd Free Worlds Guard]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "[[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]] forces used only five days to subdue all opposition, although clearing operations will take some time.\r\n\r\n\r\nIn other news, sources from Sian confirm that Tseng Shang is soon to be appointed the overall commander of [[DM.BaseDescriptionDefs[LoreMaskirovka],Maskirovka]] and the prefect of the Capellan Confederation region. \r\n\r\n\r\n\r\nThis has been the CNB January broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

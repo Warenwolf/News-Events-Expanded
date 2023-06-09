@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3036-12-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Thomas Marik, long thought dead, finishes his presentation before FWL Parliament</b>\r\n\r\nOn December 5, 3036, Thomas Marik reappeared before Parliament. Despite still experiencing discomfort from the injuries he suffered eighteen months earlier, he provided an account of his escape and convalescence. Among the information he revealed was that [[DM.BaseDescriptionDefs[LoreComStar,ComStar]] did not believe Andurien to be responsible for the bomb attack that killed his father, the late Captain-General Janus Marik.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The current Captain-General, Duncan Marik, has not yet commented on his brother's reappearance and return from the dead.\r\n\r\nCurrently, he is on [[DM.SystemDefs[starsystemdef_Mosiro],Mosiro]], directly commanding the [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM's]] newest offensive.\r\n\r\nBeside operations on Mosiro, the FWLM launched its last invasion of this year on December 4, targeting first [[DM.SystemDefs[starsystemdef_Cursa],Cursa]].\r\n\r\nThe [[DM.Factions[faction_MarikC30],25th Marik Militia]] and the elite [[DM.Factions[faction_MarikA],1st Free Worlds Guards]] have easily overcome the weak local garrison forces. Regular Andurien forces seemed to have retreated from the planet without offering any resistance.\r\n\r\n\r\n\r\nThis has been the CNB December broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3036-06-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Free Worlds League’s Capture of Leyda and Villanueva Confirmed; Shiro III Finally Fallen</b>\r\n\r\nCaptain-General of the Free Worlds League (FWL), Duncan Marik, continues his offensive on [[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]], with the confirmed capture and pacification of the [[DM.SystemDefs[starsystemdef_Leyda],Leyda]] system. The subsequent invasion of the [[DM.SystemDefs[starsystemdef_Villanueva],Villanueva]] system was also reported as successful. Political pundits expected a quick follow-up, which indeed happened.\r\n\r\n[[DM.SystemDefs[starsystemdef_Shiro],Shiro III]] was attacked soon after, with three [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]] regiments operating on the planet: <i>Atrean Hussars, the 1st Marik Militia</i> and <i>the 1st Fusiliers of Oriente.</i>",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "What followed was brutal fighting between the [[DM.Factions[faction_MarikC8],Atrean Hussars]] and the [[DM.BaseDescriptionDefs[LoreDefendersOfAndurien],5th Defenders of Andurien]]. The Defenders managed to break the Marik lines but were prevented from achieving a total victory by the arrival of reinforcing [[DM.Factions[faction_MarikA2],1st Marik Militia]] and [[DM.Factions[faction_MarikA5],1st Fusiliers of Oriente]] formations. The <i>5th Defenders of Andurien</i> disengaged and left the theater on their dropships.\r\n\r\nFWLM formations then attacked the capital city, defended by the entrenched [[DM.BaseDescriptionDefs[LoreDefendersOfAndurien],1st Defenders of Andurien]] regiment. Unlike the previous pitched fighting, Marik forces refused to launch a direct assault and instead opted to wear down the defenders. The Anduriens seemed to have decided that further defense was unlikely to produce a victory and retreated from the planet on June 7th.\r\n\r\nThis has been the CNB June broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

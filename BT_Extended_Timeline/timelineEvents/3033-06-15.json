@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3033-06-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Andurien War Update: Scarborough raided by Anduriens and Repulse invaded by Kincade’s Rangers</b>\r\n\r\n\r\nFree Worlds League's held planet of [[DM.SystemDefs[starsystemdef_Scarborough],Scarborough]] has been a stepping stone for raids by [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]] into Andurien-held systems. In the middle of May, the [[DM.Factions[faction_Andurien],Duchy]] decided to do something about it. The Fifth Defenders of Andurien launched a counter-raid on the planet while the 6th Marik Militia was offworld raiding Palladaine again.\r\n\r\nInstead, raiders were surprised by the FWLM [[DM.Factions[faction_MarikA7],12th Atrean Dragoons]] dropping on the planet, and a four-day battle ensued, driving the Anduriens off.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The current assessment of the raid on Scarborough is that the Anduriens have failed to inflict much damage on the vital infrastructure in order to affect the status of Scarborough as a jump-off point for the [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]]. However, despite winning the battle and forcing Andurien retreat, the Atrean Dragoons seem to have suffered many casualties and are recalled back to Vanra for repair and recovery.\r\n\r\nOn [[DM.SystemDefs[starsystemdef_Repulse],Repulse]], the [[DM.Factions[faction_LiaoC8],Kincade’s Rangers]] engaged the garrisoning Canopian force, <i>Drummond’s Destroyers</i>, in heavy fighting. Despite the sudden attack, the defenders rallied, and at the moment of this writing, neither side has the upper hand.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

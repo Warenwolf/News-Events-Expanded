@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3033-03-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Kujari invaded by Capellans</b>\r\n\r\n\r\nIn a surprising move, considering the existing war with the Canopian-Andurian alliance, at the beginning of this month, the Capellans sent a significant invasion task force towards [[DM.SystemDefs[starsystemdef_Kujari],Kujari]].\r\n\r\nOpposing them were the <i>Black Widow Battalion</i> mercenaries, whose combat abilities forced the [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]] to the negotiation table when the latter attempted to invade Kujari and Wallacia last year in an attempt to bring them back into their fold.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The invading force, unusually for such a large operation, consists solely of mercenary formations, all of them battalion-sized: <i>[[DM.Factions[faction_LiaoC9],St. Cyr's Armored Grenadiers]]</i>, [[DM.Factions[faction_LiaoC13],McCrimmon's Light Cavalry]], <i>Rivaldi's Hussars</i>, and <i>Steele's Eagles</i>.\r\n\r\nAfter the initial attempt at tactical envelopment with <i>Steel Eagles</i> and <i>Light Cavalry</i> landing first and trying to engage and fix the <i>Black Widow Battalion</i>, Natasha Kerensky deployed her air assets, forcing the landing of the remaining two battalions. The two groups of invading mercenaries found themselves in positions where they could not support each other.\r\n\r\nHowever, through immediate aggressive actions of <i>Steel Eagles</i> and <i>Light Cavalry</i>, the lines of the <i>Black Widow Battalion</i> were pierced, and Natasha Kerensky chose to disengage at that point.\r\n\r\nAt the moment of this news report, the Capellan mercenaries are eliminating or taking control of logistic and support points in order to prevent the <i>Black Widow Battalion</i> from waging the guerrilla war of the type they did when they ejected the FWLM from Kujari and Wallacia last year.\r\n\r\nThis has been the CNB March broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

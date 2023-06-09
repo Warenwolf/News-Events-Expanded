@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3035-01-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Battle of Gei-Fu sees Capellan Warrior House nearly destroyed</b>\r\n\r\nLast week, fierce combat erupted on Gei-Fu III in the [[DM.SystemDefs[starsystemdef_Gei-Fu],Gei-Fu]] system when a mercenary raiding force struck the reinforced garrison of the planet.\r\n\r\nWe have now confirmed that one of the mercenary battalions was the Black Widow Battalion under [[DM.BaseDescriptionDefs[LoreBlackWidow],Natasha Kerensky]].\r\n\r\nImmediately upon landing, the Black Widow Battalion attacked both the ammo dump and the nearby precious metal processing plant defended by the 1st and 2nd [[DM.Factions[faction_LiaoA7],Warrior House Ijori]] battalions. The Ijori troops seemed to have managed to repel the attacks.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "However, later on, the ammo dump exploded, wiping out the 1st Ijori battalion. The Capellans have claimed that the Black Widow Battalion used atomics with ComStar currently evaluating these claims.\r\n\r\nThe Black Widow Battalion followed up the explosion with a fierce attack on the 2nd Ijori battalion with their air supremacy turning the ensuing battle in favor of the Black Widow Battalion. The end result was 80% of the Ijori mechs being destroyed, with the remaining mechs being effective mission kill casualties. For all purposes, Warrior House Ijori has been eliminated as an effective fighting force.\r\n\r\nThe reports indicate that the mercenaries have left the planet soon after the battle was over. The goal of their invasion remains unclear at the moment.\r\n\r\nThis has been the CNB January broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

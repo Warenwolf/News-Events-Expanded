@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3034-07-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Marcus Kurita, leader of Ronins, assassinated; Andurien War update: Buenos Aires invaded by Capellans</b>\r\n\r\nWe have now confirmed reports that Marcus Kurita was assassinated during first week of invasion of [[DM.SystemDefs[starsystemdef_Predlitz],Predlitz]] by Rasalhague Republic forces. Who the culprit is still unknown. The heavy mechs of Republican forces have initially scattered lighter mechs of Ronins but are struggling in maneuver warfare that ensued.\r\n\r\n[[DM.SystemDefs[starsystemdef_Rasalhague],Rasalhague]] planet is reported totally free from Ronin forces and DCMS have eliminated Ronin forces on [[DM.SystemDefs[starsystemdef_Engadin],Engadin]].\r\n\r\nOn June 15th [[DM.SystemDefs[starsystemdef_Bruben],Bruben]] was also completely liberated by mercenary troops who eliminated Ronins that had entrenched themselves in a local fortress. On the other hand costly assault decimated the pro-republican mercenaries.\r\n\r\nRonins on [[DM.SystemDefs[starsystemdef_Memmingen],Memmingen]] had established a military junta after their takeover which functioned until DCMS First Sword of Light invaded in the beginning of July. After a few ritual duels, Ronins have opted for guerrilla warfare.\r\n\r\nBattle for [[DM.SystemDefs[starsystemdef_Orestes],Orestes]] has also been pacified after [[DM.Factions[faction_Rasalhague1],Drakøns]], assisted by the mercenary units <i>Legion of the Rising Sun</i> and the <i>Dismal Disinherited</i>, invaded late June. After a deal with Ronin Night Stalkers unit facilitating evacuation of Combine citizenry, this unit surrendered. With now substantial numerical advantage Republicans defeated the remaining Ronins after a short fight.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Lyrian appointed Valdherres in Lyrian held planets now part of the new republic are officially protesting the fact that they have to give up their planets, dragging their feet in pulling out Lyran troops. The violence on [[DM.SystemDefs[starsystemdef_Kandis],Kandis]] is now officially under control with Acting Governor Maris and his staff captured and imprisoned for their complicity in over 900 counts of manslaughter.\r\n\r\nOn the other side of galaxy, Andurien War continues on with [[DM.SystemDefs[starsystemdef_BuenosAires],Buenos Aires]] being captured by [[DM.Factions[faction_Liao],Capellans]] after a six-week battle when finally 5th Defenders of Andurien gave up and left the system.\r\n\r\n\r\nThis has been the CNB July broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

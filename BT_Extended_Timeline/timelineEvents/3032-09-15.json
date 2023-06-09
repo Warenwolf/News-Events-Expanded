@@ -1,0 +1,83 @@
+{
+    "Description": {
+        "Id": "3032-09-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>String of planets raided by Marik militia forces</b>\r\n\r\n\r\n[[DM.Factions[faction_MarikA6],6th Marik Militia]] has raided Duchy of Andurien [[DM.SystemDefs[starsystemdef_Shiro],Shiro III]] and [[DM.SystemDefs[starsystemdef_Palladaine],Palladaine]] planets while <i>2nd Marik Militia</i> raided into Steiner owned [[DM.SystemDefs[starsystemdef_SecondTry],Second Try]] planet.\r\n\r\n\r\nIn others news, counter to expectations, FWL struggles to win in the battle against rebels in [[DM.SystemDefs[starsystemdef_Kujari],Kujari]] and [[DM.SystemDefs[starsystemdef_Wallacia],Wallacia]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Military experts claim that the raiding of Andurien planets has two fold objectives – attack on enemy moral and logistics but also information gathering on capabilities of the wayward provincial military forces.  Raid into Second Try is bit harder to fathom, since provoking Steiner-Davion alliance can seem on surface to be counterproductive for FWL, seeing its internal troubles and Andurian Crises they have to deal with.\r\n\r\n\r\nAs to FWL troubles in Kujari and Wallacia, the <i>Second Oriente Hussars’</i>  troubles started when they on their landing on Kujari met fierce opposition from mercenaries local authorities had hired - [[DM.BaseDescriptionDefs[LoreBlackWidow],Natasha Kerensky's]] <i>Black Widow Battalion</i>.\r\n\r\nThrough next few days much of FWL forces would be whittled down in series of hit and run attacks, finally being forced from Kujari with Black Widow taking the fight to Wallacia.\r\n\r\n\r\nThis has been the CNB September broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
+

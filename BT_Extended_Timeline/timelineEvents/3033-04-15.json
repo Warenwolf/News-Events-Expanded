@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3033-04-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Black Widow prevails on Kujari; Capellans retake Jacomarie</b>\r\n\r\n\r\nReports are coming from [[DM.SystemDefs[starsystemdef_Kujari],Kujari]] that on the 28th of March, the <i>Black Widow Battalion</i> launched a successful decapitation raid against the Steele's Eagles HQ, where the overall commander of the Capellan mercenary invasion force, Donovan Steele, resided.\r\n\r\n\r\nOn Jacomarie, defending Canopian <i>Long's Light Lancers</i> were overwhelmed by the combined assault by [[DM.Factions[faction_LiaoC5],Ishara's Grenadiers]] and [[DM.Factions[faction_LiaoA4],Warrior House Dai Da Chi]]; the <i>Grenadiers</i> pinned <i>Long's Light Lancers</i> in place while the <i>Warrior House</i> flanked them. The one-sided battle was over by the 11th day.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "According to the reports, the decapitation attack on the Steele's Eagles HQ was a total surprise to most of the soldiers present, except the commanding officer, Donovan Steele, who was not taken in by the false evacuation spectacle some weeks prior to the event where Black Widow Battalion pretended to leave the planet. During the lightning-fast attack, Steele managed to reach his Marauder and challenged Col. Natasha Kerensky, piloting her signature Warhammer, to a duel.\r\n\r\n[[DM.BaseDescriptionDefs[LoreBlackWidow],Natasha Kerensky]] accepted the challenge. She got the upper hand during the duel and called out to Steele to surrender personally, and his battalion to follow soon. Steele complied, and his forces followed. According to the latest reports, Kujari's control has reverted to its civilian administration.\r\n\r\nThis has been the CNB April broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

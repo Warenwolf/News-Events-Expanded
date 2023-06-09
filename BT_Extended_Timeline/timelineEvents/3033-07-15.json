@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3033-07-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Andurien War Update: Canopians start retreating from Repulse</b>\r\n\r\nAfter weeks of fighting on [[DM.SystemDefs[starsystemdef_Repulse],Repulse]], many assumed that the situation would turn into a stalemate. However, invading [[DM.Factions[faction_LiaoC8],Kincade's Rangers]] received reinforcements on the 10th of this month by [[DM.Factions[faction_LiaoA4],Warrior House Dai Da Chi]]. Both units had previously fought together on Drozan, and their coordination was excellent.\r\n\r\nThis immediately changed the situation on the ground, and according to the latest reports, Canopian forces are now retreating from the system.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "While the retreat may be a feint, military analysts point out that since the war started, with the alliance of [[DM.Factions[faction_MagistracyOfCanopus],Magistracy of Canopus]] and [[DM.Factions[faction_Andurien],Duchy of Andurien]] invading the Capellan Confederation, the two allies have pursued different strategies.\r\n\r\nWhile the Anduriens have concentrated their resources towards strategic worlds, the Canopians' strategy has been more focused on capturing most planets, which implicitly means that their troops have been spread thin. Considering the casualties Canopians suffered in the battles of Drozan and Gunthar last year, analysts speculate that the Canopians do not have enough reserve troops to turn the situation in Repulse.\r\n\r\nThis has been the CNB July broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

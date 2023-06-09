@@ -1,0 +1,80 @@
+{
+  "Description": {
+    "Id": "3030-12-10",
+    "Name": "ComStar News Bureau",
+    "Details": "[[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]] is continuing its invasion of the Capellan Confederation, invading recently the Betelgeuse system using their veteran <i>1st Defenders of Andurien</i> combined arms regiment to spearhead the attack.\r\n\r\nGeneral Xeng Garibaldi, in charge of the Andurian forces, has managed to hot drop his battlemech forces barely 200 km from Biden, the capital city of the planet.\r\n\r\nThis is grim news for Capellans since [[DM.SystemDefs[starsystemdef_Betelgeuse],Betelgeuse]] is a major industrial hub of the Confederation and its loss would be a huge blow for their morale and the overall war effort.\r\n\r\nAndurian allies in the war, [[DM.Factions[faction_MagistracyOfCanopus],Magistracy Of Canopus]], are also making progress in their operations on [[DM.SystemDefs[starsystemdef_Drozan],Drozan]], firmly being in control of urban centers and most of the farmland, with [[DM.Factions[faction_LiaoA4],Warrior House Dai Da Chi]] reduced to operations in mountains and rural areas according to Canopian press releases.",
+    "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "ComStar News Bureau",
+            "Details": "Four months of the war have so far seen many Capellan defeats in their fight with Magistry-Andurian forces, with Prix, Primus, and Palladaine systems quickly falling to invading forces of Andurian Duchy while at the same time Canopian Magistry conquered half a dozen worlds along their axis of advance.\r\n\r\nSeveral worlds have been raided with CCAF forces being unable to prevent the raid from happening or limit its effect, with some pundits speculating that this is an indication of the total collapse of CCAF as a fighting force.\r\n\r\nHowever, other military experts warn against underestimating the resolve of CCAF and point to heavy fighting on [[DM.SystemDefs[starsystemdef_Gunthar],Gunthar]] and [[DM.SystemDefs[starsystemdef_GrandBase],Grand Base]] as an example of what is to come and are warning against expecting a short war.\r\n\r\nThis has been the CNB December 3030 Broadcast.",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}

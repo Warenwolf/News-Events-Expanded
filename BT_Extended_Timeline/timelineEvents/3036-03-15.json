@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3036-03-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Canopian-Andurien alliance: A dead letter?</b>\r\n\r\n\r\nOver a half year with the raiding campaigns in 3035 and recent capture of Ingonish has seen very limited response from [[DM.Factions[faction_MagistracyOfCanopus],Magistracy Of Canopus]] when it comes to supporting their embattled ally.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Some observers explain that Magistracy's failing to alleviate the burden on their ally is due to Canopion fear of [[DM.Factions[faction_Liao],Capellan Confederation]] which has not yet signed a peace treaty with Magistracy with Magistracy. \r\n\r\nThe political commentators are noting that Magistracy of Canopus, nominally the ally of [[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]], by not taking any steps in order to lessen the burden on their ally, may very well mean that alliance between the periphery state and the independent Duchy is effectivly over.\r\n\r\n\r\n\r\nThis has been the CNB March broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

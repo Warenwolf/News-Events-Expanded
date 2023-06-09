@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3038-12-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Regular Warfare over in Conquista - but the fighting continues</b>\r\n\r\nAfter a successful landing on [[DM.SystemDefs[starsystemdef_Conquista],Conquista]] and several skirmishes with the planetary militia, the three [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]] regiments converged on the sole regular rebel formation present - the [[DM.BaseDescriptionDefs[LoreDefendersOfAndurien],5th Defenders of Andurien]]- forming a cordon around the Andurien unit.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Unfortunately for loyalist forces, miscommunication between the FWLM regiments resulted in a gap in the cordon, allowing several rebel units to break out and wreak havoc on the rearguard of the loyalist forces. \r\n\r\nThe loyalists managed to turn and repel the Andurien rebels, but not before they had dispersed onto the plains of this large planet.\r\n\r\nWhile the FWLM has enough forces present to harass the rebels and ensure they do not pose a conventional threat to the loyalists, hunting down the individual Defender units will take time, delaying the overall timetable of the FWL offensive.\r\n\r\nMilitary experts point out that while the pacification of Conquista will take time, the end result is not in doubt. With Conquista no longer a threat, only two worlds remain of the Duchy of Andurien - [[DM.SystemDefs[starsystemdef_Lurgatan],Lurgatan]], which is tactically and strategically irrelevant, and [[DM.SystemDefs[starsystemdef_Andurien],Andurien]] itself, where all the remaining Andurien forces are gathered and where the final battle of the war will be fought.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

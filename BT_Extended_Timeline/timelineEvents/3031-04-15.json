@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3031-04-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Disaster for CCAF in Sigma Mare and Andurians give up the fight for Grand Base.</b>\r\n\r\n\r\nActing General Scott Kress, in the Andurian area of operations on [[DM.SystemDefs[starsystemdef_GrandBase],Grand Base system]], ordered a general retreat from the planet, formally conceding defeat to the Capellan Confederation in one of the most important battlefields of the Andurian War.\r\n\r\nAt the same time, Andurian press releases state that they have taken control of the strategically important Sigma Mare system while inflicting heavy losses on the Capellan Second Confederation Reserve Cavalry.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The bloody fight for the Grand Base system was slowly turning in favor of the Andurians earlier this year, with even the Earthwerks mech production line coming under their control. However, everything changed during the last two months.\r\n\r\nPitiless resistance and special operations by the [[DM.Factions[faction_LiaoA2],Capellan Death Commandos]], one of which even killed General Humphreys, daughter of Dame Humphreys from the Andurien, finally ground down the Andurian forces, leading to a general retreat.\r\n\r\nOn other fronts, the Andurian offensive is going much better, with the [[DM.SystemDefs[starsystemdef_SigmaMare],Sigma Mare]] system, an important logistical hub, falling easily to Andurian forces. Additionally, a significant portion of [[DM.SystemDefs[starsystemdef_Betelgeuse],Betelgeuse]], including the Aldis weapons plant, has recently come under Andurian control.\r\n\r\nThis has been the CNB April broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
+

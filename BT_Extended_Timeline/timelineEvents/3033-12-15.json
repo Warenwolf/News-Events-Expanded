@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3033-12-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Wasat and Oliver raided</b>\r\n\r\nBoth worlds of [[DM.SystemDefs[starsystemdef_Wasat],Wasat]] and [[DM.SystemDefs[starsystemdef_Oliver],Oliver]] were former Free Worlds League worlds lost during the 4th Succession War and are currently under the control of the Steiner and Davion factions.\r\n\r\nIn October, the [[DM.Factions[faction_MarikC28],13th Marik Militia]] raided the Steiner-held world of Wasat, and a month later, the [[DM.Factions[faction_MarikC19,Iron Guard]] raided Oliver.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Thomas Marik was questioned in parliament about the lackluster efforts to retake the lost worlds. Those who hoped that the raids would be part of an operation to retake the two worlds were disappointed. The “Warden of the Perimeter Defenses” replied that while he appreciated the plight of the worlds and was doing everything he could to provide refugees with aid, a concerted effort to regain the lost worlds could not realistically be made until after the Andurien situation was resolved.\r\n\r\nThis has been the CNB December broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

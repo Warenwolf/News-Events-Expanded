@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3033-01-10",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Catapult K2 variant in production once again</b>\r\n\r\n\r\nWe are receiving reports that the production line of the K2 variant of the venerable Catapult is about to be finished at Al Na’ir sometime this year.\r\n\r\n[[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] has contracted Yori Mech Works as the primary contractor for the project, and the initial run of the CPLT-K2 variant of the Catapult is expected to happen before the year is over.\r\n\r\nThis iconic mech has been becoming rarer with time and is valued by all states in the [[DM.BaseDescriptionDefs[LoreInnerSphere],Inner Sphere]], with the Federated Suns even launching raids into Capellan territory during the [[DM.BaseDescriptionDefs[LoreSuccessionWars],Succession Wars]] to capture some Catapults for their own use.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The standard iconic [[DM.MechDefs[mechdef_catapult_CPLT-C1],Catapult]] is a fire-support platform with its two Holly LRMs launchers, which are the identifying mark of this mech. The four medium lasers armament is for dealing with enemies who survive the LRM rain and the fire of supporting units.\r\n\r\n[[DM.Factions[faction_Kurita],House Kurita]] has completely changed the role of the Catapult with their [[DM.MechDefs[mechdef_catapult_CPLT-K2],CPLT-K2]] variant. It replaces the launchers with PPCs and the side torso lasers with machine guns. The jump jets were removed in favor of heat sinks, making it more of a direct fire support unit.\r\n\r\nThis has been the CNB January broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
+

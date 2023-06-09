@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3037-02-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>ComStar informs that Thomas Marik is installed as 50th Captain-General of FWL</b>\r\n\r\nComStar, on behalf of the Free Worlds League diplomatic corps, hereby informs the public of the Inner Sphere and relevant authorities of Thomas Marik ascending to the duty as the leader of the Free Worlds League.\r\n\r\nAfter reports of his brother's death, Duncan Marik, reached the Parliament, Thomas Marik was voted for and confirmed as the Captain-General of the FWL as of the 11th of February.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Duncan Marik died while personally taking charge of the invasion of [[DM.SystemDefs[starsystemdef_Xanthe],Xanthe III]], the personal fiefdom of [[DM.BaseDescriptionDefs[LoreDameCatherine],Dame Humphrey]].\r\n\r\nDropping together with his troops, he led them toward the city of Estan in the foothills of the Balzan Mountains and the rumored HQ of the enemy.\r\n\r\nWhile engaged in city fighting in Estan, his forces were engaged by a rebel artillery unit. Duncan Marik, with his unit, charged the artillery battery personally but was instead killed when his Orion battlemech was destroyed during the counterattack on his unit by two rebel battalions.\r\n\r\nThis has been the CNB February broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

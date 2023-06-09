@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3036-09-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>New Conflict Brewing Between Steiner-Davion Alliance and Free Worlds League?</b>\r\n\r\nWhile the generational warfare known as the [[DM.BaseDescriptionDefs[LoreSuccessionWars],Succession Wars]], which has plagued the [[DM.BaseDescriptionDefs[LoreInnerSphere],Inner Sphere]] for centuries, has made raiding and its subsequent suffering on the populace more of a norm than an exception these days, it is often a precursor to upcoming wars.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Following last year's raid on [[DM.SystemDefs[starsystemdef_Nestor],Nestor]] and this year’s raid on [[DM.SystemDefs[starsystemdef_McAffe],McAffe]] in May, the recent raid on [[DM.SystemDefs[starsystemdef_Uhuru],Uhuru]] by Lyrian forces has led to increased warnings of a new war from political and military analysts. While raids are normally rapid and destructive affairs where raiders avoid pitched battles with local militia, the latest raids have seen an increase in violence and intensity.\r\n\r\nThe latest raid on Uhuru turned into a three-week pitched battle, resulting in the loss of a company of BattleMechs for each side, an almost unheard-of number of casualties for a simple raid.\r\n\r\nPolitical analysts are speculating that these raids may be a precursor to the Steiner-Davion alliance taking advantage of the Free Worlds League’s preoccupation with their war on their rebel province, the [[DM.BaseDescriptionDefs[LoreDuchyOfAndurien],Duchy of Andurien]].\r\n\r\nThis has been the CNB September broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
