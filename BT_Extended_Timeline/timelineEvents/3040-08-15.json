@@ -1,0 +1,83 @@
+{
+    "Description": {
+        "Id": "3040-08-15",
+        "Name": "Donegal Broadcasting Company ",
+        "Details": "<b>The usage of the new Grasshopper field variant is becoming more widespread</b>\r\n\r\n\r\nMany pilots have tinkered with their Grasshoppers over the centuries, but none have managed to find a decidedly better configuration of the original [[DM.MechDefs[mechdef_grasshopper_GHR-5H],GHR-5H]].\r\n\r\n\r\nOriginal combination of a heavy Mingh z33/7 mech chassis and 4 Leviathon Lifters jump jets have produced a highly mobile weapon platform that is highly mission flexible. While somewhat weakly armored compared to designs of similar weight, this is offset by clever design and weapon placement, with main weapon, a Diplan HD Large Laser positioned in the torso, allowing Grasshopper to fire its main weapon even with heavy damage to its arms and torso sides.\r\n\r\n\r\nIn addition to the large laser mentioned above, Grasshopper sports additional four Diplan M3 Medium Lasers and a Conan/S LRM 5 missile bank.
+",
+        "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Donegal Broadcasting Company",
+                        "Details": "[[DM.MechDefs[mechdef_grasshopper_GHR-5N],GHR-5N variant]] tries to upgrade the firepower of the original Grasshopper by replacing the large laser with a PPC - also the very underpowered Conan/S LRM 5 missile bank is being replaced with additional medium laser, thereby improving short to medium damage potential and long range damage potential of the design.\r\n\r\n\r\nWhile this undeniably gives the Grasshopper better firepower, it also puts it in a higher heat band compared to the very balanced original.\r\n\r\n\r\nSome of our in-house mech experts do wonder whether the damage potential over the course of battle of GHR-5N variant would indeed be superior to that of GHR-5H\r\n\r\n\r\n\r\nAugust 3040 Edition of DBC Monthly News Recap: Stay in the Know!",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
