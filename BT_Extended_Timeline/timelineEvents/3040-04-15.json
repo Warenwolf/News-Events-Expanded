@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3040-04-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>ComStar and Free Worlds League finalize agreement on Com Guard deployment</b>\r\n\r\n\r\nAfter months of hard work,  [[DM.Factions[faction_ComStar],ComStar]], alongside their FWL colleagues, is pleased to announce the completion of their logistic and administrative preparations for the deployment of Com Guards in FWL territories. \r\n\r\n\r\nThe primary role of the Com Guard will be to ensure security and protection for HPG stations and their personnel throughout the Free Worlds League. This critical task ensures the integrity of communications that connect the various planets within the FWL.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "It is important to emphasize that the deployment of security to [[DM.BaseDescriptionDefs[LoreHPG],HPG]] does not infringe upon the freedoms of the people of the FWL, nor is it a responsibility taken lightly by ComStar. Similar treaties have already been established with most nations bordering the FWL.\r\n\r\nConsidering the heightened risks and ComStar's institutional obligation and policy to protect humanity, it is only logical for ComStar to assume the responsibility of safeguarding HPG stations and personnel while also providing aid to civilians in need.\r\n\r\n\r\n\r\nThis has been the April CNB Broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
