@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3040-09-15",
+        "Name": "Donegal Broadcasting Company",
+        "Details": "<b>Colonization drive in Taurian Concordat</b>\r\n\r\n\r\n\r\nCounted as one of the most highly vocal and tenacious factions within the [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]], the philosophical group known as the \"Far Lookers\" advocates for the exploration and colonization of space as the key to humanity's future and salvation.\r\n\r\n\r\nTheir portrayal of the Periphery nations as the true inheritors of humanity's potential resonates strongly with Taurian nationalists who embrace the image of the Concordat as humanity’s ultimate beacon of hope.",
+        "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Donegal Broadcasting Company",
+                        "Details": "Perhaps it is this longstanding tradition of exploration ideology that has sparked the latest colonization drive within the Concordat. The recent additions of the [[DM.SystemDefs[starsystemdef_Marknick],Marknick]] system in May and the  [[DM.SystemDefs[starsystemdef_Spitz],Spitz]] system last week are testaments to the Concordat's expansion efforts.\r\n\r\n\r\nOn the other hand, our in-house political experts question whether the Taurian Concordat simply stumbled upon two undefended valuable planets and seized them, similar to the actions of [[DM.BaseDescriptionDefs[LoreInnerSphere],Inner Sphere]] nations during their wars that the people of the Concordat like to decry.\r\n\r\n\r\n\r\nSeptember 3040 Edition of DBC Monthly News Recap: Stay in the Know!",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
