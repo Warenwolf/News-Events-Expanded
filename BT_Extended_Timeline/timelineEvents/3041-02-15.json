@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3041-02-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Pinard raided by mercenaries gone rogue</b>\r\n\r\nAccording to news from the Taurian Concordat, the [[DM.SystemDefs[starsystemdef_Pinard],Pinard system]] has been raided by Dedrickson's Devils, led by James Dedrickson.\r\n\r\n\r\nThis formerly reputable company had been employed by the [[DM.Factions[faction_Davion], Federated Suns]] for decades without any issues. However, they have recently been in conflict with their Davion employer over their pay.\r\n\r\n\r\nDavion sources confirm that Major James Dedrickson has deserted his post, leading his unit to the border towards the Pinard system in the [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]].\r\n\r\n\r\nWhat exactly happened next is unclear, but it is evident that the Taurians denied entry to the Davion mercenary group, which should not have surprised Major Dedrickson given the strained relationship between the two nations.\r\n\r\nDetails are scarce, but it appears that the mercenaries not only disregarded the command to refrain from crossing the border but also decided to raid Pinard III for supplies.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Dedrickson's Devils utilize a parade scheme of forest green with silver highlights, with a stylized <b>\"D\"</b> as their unit insignia.\r\n\r\nIt is believed that they operate a reduced battalion of ground troops and two medium aircraft squadrons, equipped similarly to a second-line garrison unit.\r\n\r\n\r\nComStar's [[DM.BaseDescriptionDefs[LoreMercenaryReviewBoard], Mercenary Review Board]] will of course impose sanctions on this rogue mercenary unit for their heinous crime.\r\n\r\n\r\n\r\nThis has been the CNB February broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
