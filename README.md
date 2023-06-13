@@ -16,8 +16,8 @@ such as "BattleTech Extended 3025-3061" which has been focus of this work.
 
 **How to install:** 
 
-The files in the folders timelineEvents, illustrations,and ForcedEvents go 
-into equally named folders in "BATTLETECH\MODS\BT_Extended_Timeline" folder.
+The content in the extracted folders BT_Extended_CE and BT_Extended_Timeline go 
+into equally named folders in "BATTLETECH\MODS\" folder (Your mod folder may be named differently).
 
 More detailed instructions and info is found in the wiki: https://github.com/Warenwolf/News-Events-Expanded/wiki
 
