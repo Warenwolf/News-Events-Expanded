@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3041-11-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Economic downturn for the mercenary industry?</b>\r\n\r\n\r\n\"One man's war is another man's opportunity\" as the old Skye saying goes but for some lack of war means lack of opportunity.\r\n\r\nWhile the War of 3039 provided a brief boost to the mercenary industry, there are signs of an upcoming downturn. A perfect storm is brewing due to a reduction in military activity among the major nations in the Inner Sphere and the technological revolution we are witnessing.\r\n\r\nWhile the media's attention has been focused on new civilian products entering the market, there has been also a significant but less-publicized military development  in many areas in recent years. Next year, an unprecedented number of new mech production lines are expected to open, introducing several new Mech variants. Additionally, new equipment is slowly being (re-)introduced to the market, including previously thought [[DM.BaseDescriptionDefs[LoreLosTech],Lostech]] such as double heatsinks, countermeasure systems and improved armor types.",
+
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "For mercenary companies, staying competitive has never been more expensive. If they fail to keep up with the competition, they may not survive to see their next paycheck.\r\n\r\n\r\nAt same time as technological is picking up, following the Andurien Crisis that occurred after the [[DM.BaseDescriptionDefs[LoreFourthSuccessionWar],Fourth Succession War]], both the Marik and Liao are taking time to recoup and recover. Our own nation has also recently concluded an expensive war with the Combine. It is fair to say that war weariness is prevalent across the Inner Sphere right now. All of this means that there are more mercenaries vying for fewer contracts, most of which offer lower pay.\r\n\r\n\r\nTo make things worse, more and more mercenary companies are being forced to take loans that bind them to their employers' logistics and supply chains. The ComStar-operated [[DM.BaseDescriptionDefs[LoreMercenaryReviewBoard],Mercenary Review Board]] is warning its members to be aware of the \"The Company Store\" ploys, which are long-term strategies employed by employers to financially bankrupt the mercenary units. The ultimate goal is to coerce the mercenaries into selling off their equipment to pay off their accumulated debts or to permanently join the employer's service.\r\n\r\n\r\nAs one mercenary captain told us - before we were told \"live by the sword, die by the sword\".These days they are saying \"live by the sword, die by the debtor\"\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

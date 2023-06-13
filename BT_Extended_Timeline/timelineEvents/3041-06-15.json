@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3041-06-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Investigation on the assassination attempt on Precentor Tejh still ongoing</b>\r\n\r\n\r\n\r\nThe investigation into the heinous assassination attempt on Precentor Villius Tejh is still without results, despite the incident taking place before many witnesses in Zi-jen Cheng, the crowded capital city of the [[DM.Factions[faction_Liao],Cappellan Confederation]].\r\n\r\n\r\nPrecentor Villius Tejh has served as Precentor Sian for many years, diligently touring HPG Stations in the Capellan Confederation and fulfilling his diplomatic duties.\r\n\r\nDuring one of these tours, while his motorcade was traveling through the city, his car came to a halt due to heavy traffic. At that moment, an unknown assailant fired at the Precentor's car from close range. Although wounded, Tejh managed to escape the scene and rendezvous with a [[DM.BaseDescriptionDefs[LoreComGuards3030s],Com Guard]] rescue team.\r\n\r\nCurrently, she is receiving treatment on [[DM.SystemDefs[starsystemdef_Terra],Terra]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Today, [[DM.BaseDescriptionDefs[LorePrimusWaterly],Primus Waterly]]  informed the Chancellor that, due to concerns about Villius Tejh's health following the recent incident, another Capellan native, Jen Li, would assume the role of Precentor Sian.\r\n\r\nJen Li comes from a family with marriage ties to [[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]] and is well acquainted with [[DM.BaseDescriptionDefs[LoreRomanoLiao],Chancellor Romano]].\r\n\r\n\r\nThis appointment ensures the continuation of the strong relationship that the Capellan Confederation and ComStar have enjoyed under Precentor Villius Tejh. \r\n\r\n\r\n\r\nThis has been the CNB June broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

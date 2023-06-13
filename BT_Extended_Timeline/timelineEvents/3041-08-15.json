@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3041-08-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Ko HPG Station bombed!</b>\r\n\r\n\r\n\r\nEarlier today, the [[DM.BaseDescriptionDefs[LoreFreeSkyeMovement3030s],Free Skye Movement]] carried out a car bombing at the HPG compound on [[DM.SystemDefs[starsystemdef_Ko],Ko]].\r\n\r\nInitial reports from witnesses on Ko indicate that terrorists, known Free Skye activists, approached the outer wall at high speed with their car before quickly leaving the scene. A few moments later, a huge explosion rocked the compound, completely disintegrating the outer wall and causing severe damage to the buildings. Five acolytes and two adepts were reported killed, while the Precentor of the KO station was seriously wounded and remains in critical condition.\r\n\r\nFortunately, the invaluable HPG Station remains unharmed.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "A few hours ago, [[DM.BaseDescriptionDefs[LorePrimusWaterly],Primus Waterly]] demanded that [[DM.BaseDescriptionDefs[LoreArchonMelissaSteiner],Melissa Steiner]] immediately allow her to deploy [[DM.BaseDescriptionDefs[LoreComGuards3030s],Com Guard]] forces in the Commonwealth to protect the HPG stations, or else face a full ComStar Interdiction.\r\n\r\nLyran diplomatic sources indicate that Archon largely agrees with Primus Waterly's concerns, suggesting that she will not oppose ComStar on this matter\r\n\r\n\r\nWe, at <b>ComStar Broadcasting</b>, extend our heartfelt condolences and profound sympathies to the victims and their families during this unimaginably difficult time. May the memories of the victims serve as a source of strength, and may the spirit of Blake and his vision prevail in the face of adversity...\r\n\r\n\r\n\r\nThis has been the CNB August special broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

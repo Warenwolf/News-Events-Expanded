@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3041-09-15",
+        "Name": "Irian News Interstellar",
+        "Details": "<b>Archon Melissa Steiner agrees to the deployment of Com Guard forces in the Lyrian Commonwealth</b>\r\n\r\n\r\n\r\nAfter last month's terrorist attack on the [[DM.SystemDefs[starsystemdef_Ko],Ko HPG Station]], ComStar has escalated pressure to deploy their troops in the Lyrian part of the [[DM.BaseDescriptionDefs[LoreFederatedCommonwealthAlliance],Federated Commonwealth Alliance]] in order to safeguard the HPG network, even resorting to the threat of total communication interdiction if their demand is not met. It's worth noting that ComStar has similar agreements with other nations, including our own.\r\n\r\nTwo weeks ago, the parties announced their agreement on the matter - Com Guard will be deployed as per [[DM.BaseDescriptionDefs[LorePrimusWaterly],Primus Waterly's]]  wishes.\r\n\r\n\r\n\r\nHowever, one question remains unanswered — who are the terrorists responsible for the attack?\r\n\r\n\r\n\r\nThe Free Skye Movement was started by Aldo Lestrade, the Duke of Summer, who was purportedly a strong supporter of Skye independence. Many believe he was the political mastermind behind Fredrick Steiner's failed coup against Archon Katrina Steiner. Some wonder if the duke himself had more interest in seizing the throne than supporting the separatist cause.\r\n\r\n\r\n\r\nWhatever his reasons may have been, he was not idle for long. In 3027, Lestrade orchestrated an attempted kidnapping of Archon-Designate [[DM.BaseDescriptionDefs[LoreArchonMelissaSteiner],Melissa Steiner]], followed by an assassination plot targeting both Katrina and Melissa Steiner in 3029. All these attempts failed, and a few months later, Lestrade was killed by unknown parties.\r\n\r\nHis protégé, Ryan Steiner, the Duke of Porrima, assumed leadership. Under Ryan's guidance, the movement grew more organized and influential, with increasing numbers of Lyran nobles joining the opposition against the Steiner-Davion alliance.",
+
+        "Icon": "uixTxrTimeLine_IrianIndustries.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Irian News Interstellar",
+                        "Details": "The initial uprising, known as the First Skye Rebellion, was triggered by the formation of the Free Rasalhague Republic. While major demonstrations occurred, officially against Ryan Steiner's orders, they quickly turned violent. Prince Davion chose to suppress these demonstrations forcefully, leading to hundreds of casualties caused by the [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]]. Initially maintaining an official stance of non-involvement, Ryan Steiner intervened in a standoff in 3034. He successfully negotiated a settlement between Davion soldiers and Skye separatists, gaining significant political influence and simultaneously embarrassing Hanse Davion. Although the First Skye Rebellion ultimately failed, it bolstered Ryan Steiner's control over the  organization.\r\n\r\n\r\n\r\nFollowing the recent attack, the Free Skye Movement has claimed that rogue elements were responsible for targeting of the HPG station. However, few believe their account. The question on many minds now is: What did the Free Skye Movement hope to achieve by bombing an HPG station? And what will they do next?\r\n\r\n\r\n\r\n<i>Stay Informed. Stay Ahead. Your Trusted Source for Breaking News - Irian News Interstellar 15.09.3041</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
