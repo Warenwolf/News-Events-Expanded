@@ -8,7 +8,9 @@ the time period of the 3030s and the early 3040s.
 
 Currently it adds 50+ news events between 3030 and 3040s. The plan is to further expand on news item in other time periods, initally early 3040s.
 
-<img src="https://github.com/Warenwolf/News-Events-Expanded/assets/136007621/46c93895-8bf3-4ef1-94e9-ee8f93f67b20" alt="An example of one of the lore events" width="400" height="400">
+
+<img src="https://github.com/Warenwolf/News-Events-Expanded/assets/136007621/3695d5f2-8c21-4c88-8887-0191fac8a3cf" alt="An example of one of the lore events" width="400" height="400">
+
 
 
 Note that these additional events will only be triggered if you use a mod of the Battletech that expands the timeline of the game
@@ -16,8 +18,8 @@ such as "BattleTech Extended 3025-3061" which has been focus of this work.
 
 **How to install:** 
 
-The files in the folders timelineEvents, illustrations,and ForcedEvents go 
-into equally named folders in "BATTLETECH\MODS\BT_Extended_Timeline" folder.
+The content in the extracted folders BT_Extended_CE and BT_Extended_Timeline go 
+into equally named folders in "BATTLETECH\MODS\" folder (Your mod folder may be named differently).
 
 More detailed instructions and info is found in the wiki: https://github.com/Warenwolf/News-Events-Expanded/wiki
 
