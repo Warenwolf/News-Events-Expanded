@@ -1,0 +1,6 @@
+{
+    "Id" : "LoreEndoSteel",
+    "Name" : " Endo Steel",
+    "Details" : "Developed by the Terran Hegemony in 2471, endo steel is a high-performance material especially used for manufacturing of mech skeletons. It combines high-density steel with titanium, aluminum, and rhenium using zero-G manufacturing techniques.\r\n\r\nThis creates a metal that is twice as strong per unit of weight compared to standard skeleton materials, reducing the chassis weight by half. However, it increases overall bulk, occupying 14 critical slots in Inner Sphere designs.\r\n\r\nDuring the Succession Wars, the orbital facilities producing these weight-saving chassis were primary targets and were all destroyed by the time of Second Succession War. As a result, the technology became extinct in the Inner Sphere until the Draconis Combine regained the ability to produce endo steel in 3035, followed by other Successor States.\r\n\r\nDespite its superior weight savings compared to ferro-fibrous armor, endo steel faces challenges due to limited orbital factories, driving up costs and availability. Retrofitting existing 'Mechs with endo steel requires extensive factory-level refits and complicates field repairs compared to standard skeletons.",
+    "Icon" : ""
+}
