@@ -1,8 +1,8 @@
 {
     "Description": {
-        "Id": "3037-05-15",
+        "Id": "3037-08-15",
         "Name": "ComStar News Bureau",
-        "Details": "<b>Battle of Cursa and Xanthe III over, Thomas Marik calls a halt to further military operations</b>\r\n\r\n\r\nThree month long battle for [[DM.SystemDefs[starsystemdef_Cursa],Cursa]] is finally over, with FWLM carrying the day against rebel forces. Despite the victory the bloody fighting has reduced both FWLM and Andurian forces involved.\r\n\r\n\r\nEven more bloody Battle of [[DM.SystemDefs[starsystemdef_Xanthe],Xanthe III]] ended on 5th of May, in FWLM's favor after the later brought in superior number of forces on the planet. Currently Andurien forces are fighting rearguard actions while evacuating from the system.\r\n\r\n\r\nAnother great blow to Duchy of Andurian and indicative of the overall situation for the Duchy, is that [[DM.Factions[faction_Merc11],Tooth of Ymir]] mercenary company in their employ since 3030 and cornerstone of many battles, declined to extend their employment with the Duchy.",
+        "Details": "<b>Brutal warfare on St. Roberts ends with Barnet Accords: Federated Suns reclaims the planet</b>\r\n\r\n\r\nThe three-year-long conflict on St. Roberts started in 3034 when local religious extremists, possibly exploiting the distraction of the Skye Crises, staged a coup against the Duke of St. Roberts with the aim of establishing a theocratic rule on the planet.\r\n\r\n\r\nThe Crucis March Federated Suns authorities responded by deploying the Tsamma Crucis March militia from nearby Tsamma to quell the rebellion.",
         "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
     },
     "Scope": "Company",
@@ -35,7 +35,7 @@
                     "Description": {
                         "Id": "continue2",
                         "Name": "ComStar News Bureau",
-                        "Details": "Captain-General Thomas Marik is calling a halt to all offensive operations for the rest of the year in the war. His stated goal is to give the diplomacy another chance.\r\n\r\nComStar has agreed to meditate between parties.\r\n\r\n\r\n\r\nThis has been the CNB May broadcast.",
+                        "Details": "What followed was a brutal three-year fight where irregular warfare could quickly transition into regular warfare at a moment's notice.\r\n\r\n\r\nFinally, with assistance from [[DM.Factions[faction_ComStar],ComStar]], the local authorities and rebels have reached an agreement known as the Barnet Accords. This agreement will put an end to the fighting on this war-torn planet and bring it back into the fold of the [[DM.Factions[faction_Davion],Federated Suns]].\r\n\r\n\r\nA peacekeeping force from the Tsamma Crucis March militia will remain to maintain peace.\r\n\r\n\r\n\r\nThis has been the CNB August broadcast.",
                         "Icon": ""
                     },
                     "Weight": 100,
