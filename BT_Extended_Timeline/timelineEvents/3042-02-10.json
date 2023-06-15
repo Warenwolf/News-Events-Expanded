@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3042-02-10",
+        "Name": "Koe No Ryu",
+        "Details": "<b>Maltex Corporation and Yori Mech Works introduce the Hatamoto-Chi HTM-27T Assault Battlemech</b>\r\n\r\n\r\n\r\nMaltex Corporation and Yori Mech Works are delighted to announce the initiation of production for the highly anticipated 27T variant of Hatamoto-Chi. With the approval and blessings from the Coordinator's Office, we proudly present this new addition to our line of battlemechs, set to be produced on [[DM.SystemDefs[starsystemdef_Errai],Errai]] and [[DM.SystemDefs[starsystemdef_AlNair],Al Na'ir]].\r\n\r\n\r\nBuilding upon the successes and experiences gained from the [[DM.MechDefs[mechdef_hatamotochi_HTM-26T],Hatamoto-Chi HTM-26T]], which shocked the invading Davion and Lyran troops during the War of 3039 despite its limited production run, the [[DM.MechDefs[mechdef_hatamotochi_HTM-27T],Hatamoto-Chi HTM-27T]] represents a perfect blend of tradition and modernity.",
+
+        "Icon": "uixTxrTimeLine_VoiceoftheDragon.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Koe No Ryu",
+                        "Details": "In the heart of the [[DM.MechDefs[mechdef_hatamotochi_HTM-27T],Hatamoto-Chi HTM-27T]] lies the legendary Earthwerks VOL chassis, meticulously forged from [[DM.BaseDescriptionDefs[LoreEndoSteel],Endo Steel]], a groundbreaking material discovered by our scientists a few years ago. This innovative chassis not only provides superior strength, but also significantly reduces weight, allowing for the incorporation of more advanced equipment.\r\n\r\n\r\nBy ingeniously combining the design elements of two well-known mechs, namely the Charger and the Thug, our engineers have created a weapon platform that is not only highly effective in combat, but also remarkably easy to maintain.\r\n\r\n\r\nArmed with a simple yet powerful combination of two Tiegart PPCs and two Bical-6 SRM-6 missile racks, the Hatamoto-Chi 27T delivers an impressive punch, both at close range and from a distance.\r\n\r\n\r\nPropelling this mech forward is the reliable and time-tested Pitban 320 fusion engine.\r\n\r\n\r\nMaltex Corporation and Yori Mech Works are confident that the Hatamoto-Chi 27T will ensure numerous victories for the Dragon and His Mustered Soldiery, showcasing our commitment to excellence and innovation in the field of advanced military technology.\r\n\r\n\r\n\r\n<b>This message has been approved as proper by the Voice of the Dragon</b>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

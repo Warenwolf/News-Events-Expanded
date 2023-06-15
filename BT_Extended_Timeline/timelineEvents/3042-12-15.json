@@ -1,0 +1,80 @@
+{
+  "Description": {
+    "Id": "3042-12-15",
+    "Name": "Donegal Broadcasting Company",
+    "Details": "<b>Most exiting new technology this year - ReLive</b>\r\n\r\n\r\nCarreño Life Sciences has established a strong presence in the market over the years with its range of products throughout Free Worlds League.\r\n\r\nHowever, their newest groundbreaking offering, \"ReLive\", which has caused quite a sensation this year is positioning them to become an influential force throughout the Inner Sphere.\r\n\r\nDespite its high price tag of around 5,000 eagles or 3200 kroner per month in our currency, ReLive introduces a sophisticated process that effectively slows down the aging process. ",
+    "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
+  },
+  "Scope": "Company",
+  "Weight": 0,
+  "Requirements": {
+    "Scope": "Company",
+    "RequirementTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+      "items": null,
+      "tagSetSourceFile": ""
+    },
+    "RequirementComparisons": []
+  },
+  "AdditionalRequirements": [],
+  "AdditionalObjects": [],
+  "Options": [
+    {
+      "Description": {
+        "Id": "continue",
+        "Name": "Continue Broadcast",
+        "Details": "Broadcast continues",
+        "Icon": ""
+      },
+      "RequirementList": [],
+      "ResultSets": [
+        {
+          "Description": {
+            "Id": "continue2",
+            "Name": "Donegal Broadcasting Company",
+            "Details": "Users can maintain a youthful appearance throughout the treatment period, experiencing aging at a mere one-fifth of the normal rate.\r\n\r\nIt's important to note that while ReLive doesn't extend life expectancy beyond the average lifespan of 80 to 90 years, consistent usage is crucial to sustain the desired effects.\r\n\r\nWe predict a surge of holovid stars seeking ReLive treatment at centers in the future.. \r\n\r\n\r\n\r\n<i>December 3042 Edition of DBC Monthly News Recap: Stay in the Know!</i>",
+            "Icon": ""
+          },
+          "Weight": 100,
+          "Results": [
+            {
+              "Scope": "Company",
+              "Requirements": null,
+              "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+              },
+              "RemovedTags": {
+                "items": null,
+                "tagSetSourceFile": ""
+              },
+              "Stats": null,
+              "Actions": null,
+              "ForceEvents": null,
+              "TemporaryResult": false,
+              "ResultDuration": 0
+            }
+          ]
+        }
+      ],
+      "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+          "items": null,
+          "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+      }
+    }
+  ],
+  "PublishState": "PUBLISHED",
+  "ValidationState": "UNTESTED",
+  "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3042-07-15",
+        "Name": "Donegal Broadcasting Company",
+        "Details": "<b>Gan Singh and Kelenfold raid update</b>\r\n\r\n\r\nRecently, both Gan Singh and Kelenfold were raided, but the latest updates from the planets indicate that both raids were either repelled or contained, with no reported civilian losses.\r\n\r\n\r\nOn [[DM.SystemDefs[starsystemdef_GanSingh],Gan Singh]], the Mariks, assuming that the planet was lightly defended, launched what they believed would be a brief probing raid.\r\n\r\n\r\nHowever, they were caught by local defenders under the able command of \"Medal Excalibur\" holder and Knight of Realm Andrew Redburn. The invasion force was decimated, resulting in a total failure for the [[DM.Factions[faction_Marik],FWL]].",
+
+        "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Donegal Broadcasting Company",
+                        "Details": "\r\nIn [[DM.SystemDefs[starsystemdef_Kelenfold],Kelenfold]], the situation was a bit more complex...\r\n\r\n\r\n[[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] Tai-i Marge Sippers landed her forces on the night side of the planet, hundreds of kilometers away from their intended target, a Kelenfold TMM supply depot. This confusion about her true goal puzzled the defenders.\r\n\r\n\r\nWhen Sippers finally reached her target, her forces encountered opposition from a single lance of assault-class battlemechs from <i>Kelenfold Tamar March Militia</i>.\r\n\r\n\r\nDespite this, her force of rapid light mechs, consisting of Stingers and Jenners, managed to disable and destroy two of the heavier mechs, a Banshee and a Striker. They also succeeded in destroying the supply dump before being forced to withdraw by two remaining militia Zeus mechs.\r\n\r\n[[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS raiders]] suffered loss of six of their light mechs, four Jenners and two Stingers.\r\n\r\n\r\n\r\n<i>June 3042 Edition of DBC Monthly News Recap: Stay in the Know!</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3042-01-10",
+        "Name": "Donegal Broadcasting Company",
+        "Details": "<b>St.Ives Ceres Metals Industries and Coventry Metal Works unveiling new medium mechs</b>\r\n\r\n\r\n\r\nAccording to mech watcher enthusiasts, units from the St. Ives Armored Cavalry have started deploying the vastly improved variant of the Blackjack medium mech, which is being produced at St. Ives.\r\n\r\n\r\nThis variant, known as the [[DM.MechDefs[mechdef_blackjack_BJ-3],Blackjack BJ-3]], is based on the initial Capellan BJ-3X experiment inherited by St. Ives Compact (and presumably acquired by the Federation Suns) when they declared their independence.\r\n\r\n\r\nCompared to the [[DM.MechDefs[mechdef_blackjack_BJ-1],standard Blackjack variant]], the Whirlwind-L Autocannon AC/2s have been replaced with a pair of Ceres Arms Smasher PPCs, and the heat sinks have been upgraded to double efficiency units. It remains unclear whether this is the rumored corrosive coolant variant or another solution the St. Ives engineers opted for.",
+
+        "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Donegal Broadcasting Company",
+                        "Details": "Moving on to Coventry system, a far more radical medium mech packed with the latest technology is currently being rolled out by Coventry Metal Works.\r\n\r\n\r\nThe Phoenix Hawk 3S model, [[DM.MechDefs[mechdef_phoenixhawk_PXH-3S],PXH-3S]], has upgraded armor, which has being replaced with Lexington Limited High-Grade [[DM.BaseDescriptionDefs[LoreFF],Ferro-Fibrous]] armor. Additionally, its engine has being upgraded to an [[DM.BaseDescriptionDefs[LoreXL],extralight]] Pitban Fusion Engine version. At the same time, the [[DM.BaseDescriptionDefs[LoreMASC], MASC]] grants it the ability to periodically boost its speed.\r\n\r\n\r\nIts left torso is equipped with cellular ammunition storage equipment ([[DM.BaseDescriptionDefs[LoreCASE],CASE]]), greatly improving the pilot and machine's survivability. It even features an active protection system in the form of an [[DM.BaseDescriptionDefs[LoreAMS],AMS]] installation in its arm. The PXH-3S is armed with a Thunderbolt-12 Large Pulse Laser as its main weapon, supported by a pair of medium lasers and machine guns.\r\n\r\n\r\nThe downside of cramming every new technology under the sun into a mech of this size is, of course, that the price of this medium mech may very well rival the current market price of some assault-class mechs. Our in-house experts doubt that the PXH-3S will become as ubiquitous as the venerable PHX-1 design is today. \r\n\r\n\r\n\r\n<i>January 3042 Edition of DBC Monthly News Recap: Stay in the Know!</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3042-04-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Armed Forces of the Federated Suns - what does it mean?</b>\r\n\r\n\r\n\r\nThough the Federated Commonwealth will not officially come into being until the firstborn son of Hanse and Melissa Davion reaches adulthood and assumes leadership of both nations, the armed forces of the two realms have now merged into a new army: the \"Armed Forces of the Federated Commonwealth\". or AFFC, as the media has already started abbreviating it.\r\n\r\n\r\nWhile the AFFC High Command was unified a year ago (notably, two years after the War of 3039), it is on April 1st of this year that the army's time has come.\r\n\r\n\r\nThe armed forces will be divided into two state commands, both of which answer to the High Command. The Federated Suns State Command will consist of the historic Draconis, Capellan, and Crucis Marches, while the Lyran Commonwealth will be reorganized into the Tamar, Tamarind, Periphery, Donegal, Sarna, and Skye Marches. Each march will be commanded by a Field Marshal, and each of the two state commands will be overseen by supreme Field Marshals.",
+
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "Naturally, with the new army come new ranks and uniforms, which means that both the old LCAF and AFFS soldiers will have to learn whom to salute all over again. All medals and decorations from both states will be retained, and we will be receiving some new ones as well. Currently, we are aware of new medals such as the Federated Commonwealth Medal of Honor, the Federated Commonwealth Star, the Pride of Sarna Medal, and the Tikonov Sword. The St. Ives Diamond will be reserved for soldiers who serve with distinction in the St. Ives Compact, our allied nation.\r\n\r\n\r\nWhile few things annoy people and organizations as much as change, especially within traditionalist institutions like the armed forces, the new AFFC is undoubtedly the strongest army the known space has witnessed since the era of the Star League.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

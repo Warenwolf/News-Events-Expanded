@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3042-06-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Westerhand: mercenary duel highlights planet's chaotic environment</b>\r\n\r\n\r\n[[DM.SystemDefs[starsystemdef_Westerhand],Westerhand]] is known dispargengly in certain circles, primarly those on Solaris, as \"poor man's Solaris\".  Located in the Sian Commonality of the Capellan Confederation, just one jump away from the Free Worlds League’s Duchy of Andurien, this world first came into use as a mercenary recruitment center during the reign of former Chancellor Maximilian Liao.\r\n\r\n\r\nTo attract foreign investments, Chancellor Liao established Westerhand as the host world for quarterly BattleMech Westerhand Games. These events welcomed travelers from the Inner Sphere and were used as evaluating tool of [[DM.BaseDescriptionDefs[LoreLiaoCCAF],CCAF]] troops who were encouraged to join.\r\n\r\nHowever, poor marketing and political perception hindered their success. With the Confederation's focus shifting to rebuilding military strength after the Fourth Succesion War, support for the Games declined. The Westerhand Games languished further during the Andurien-Canopian invasion, causing an economic depression.\r\n\r\n\r\nThe remaining games outside the Victory City attract desperate hopefuls and mercenaries short on money competing for limited fame and recognition.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Last month, just one such desperate mercenary company found themselves in conflict with a local stable known as the Ikhwan Stables. The Ikhwan Stables themselves consisted of Combine nationals who were stranded on the planet. A bar fight later, the Iron Knights launched a raid on the Ikhwan warehouse, killing the Ikhwan stablemaster before being repelled. Subsequently, the Iron Knights decided to challenge the Ikhwan Stables to a duel, presumably in the hopes of gaining the fame and recognition necessary to secure a new client.\r\n\r\n\r\nThree days ago, the duel took place, with the Iron Knights emerging victorious. However in process, they suffered losses among their ranks, including their commanding officer and several mechwarriors.\r\n\r\n\r\nThe recent duel between the Iron Knights and the Ikhwan Stables serves as a grim reminder of the lawlessness that plagues Westerhand. As the Iron Knights emerge victorious but crippled, it underscores the precarious nature of mechwarrior life in this forsaken world, where desperation, violence, and the pursuit of fleeting fame overshadow any semblance of order and stability.\r\n\r\n\r\n\r\nThis has been the CNB June broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
