@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3043-12-15",
+        "Name": "Solaris Broadcasting Corporation",
+        "Details": "<b>Amanda Hamilton not to return to Solaris Games next year!?</b>\r\n\r\n\r\n\r\nIn a surprising turn of events today, Amanda Hamilton has officially confirmed the swirling rumors that she will not be participating in the upcoming 3044 Grand Tournament. With no disclosure of her reasons behind this decision, fans and enthusiasts are left to speculate and ponder the potential motives. The range of speculations is vast, spanning from mundane possibilities like personal relationships or pregnancy to more outlandish theories involving her troubled past catching up to her. A word of advice to our readers: if one intends to disappear, engaging in the Grand Tournament is certainly not the recommended course of action. Just a friendly suggestion...\r\n\r\n\r\nWhile Amanda Hamilton is known for her incredible piloting skills in her Stalker, her personal life remains shrouded in mystery. We do know, however, that she acquired both her mech and her experience during her time as a mercenary before arriving on [[DM.SystemDefs[starsystemdef_Solaris],Solaris VII]].",
+        "Icon": "uixTxrTimeLine_SolarisBroadcastingCorporation.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Solaris Broadcasting Corporation",
+                        "Details": "Ascending the ranks swiftly, she claimed the prestigious title of Grand Champion, a feat she has successfully defended for an impressive four years. This achievement places her in the esteemed company of the select group of only thirteen Grand Champions who have managed to hold the title for four years or more.\r\n\r\n\r\nPerhaps she simply chose to retire on a high note, capitalizing on her newfound stardom and seeking a career path where the risk of bodily harm is significantly reduced. The true motives behind her departure remain a mystery as Amanda has opted to remain silent on the matter. All we can do for now is patiently wait and see what unfolds in the future...\r\n\r\n\r\n\r\nSBC December Mech Talk",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

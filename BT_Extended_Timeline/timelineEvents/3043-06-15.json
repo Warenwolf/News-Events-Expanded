@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3043-06-15",
+        "Name": "Irian News Interstellar",
+        "Details": "<b>2nd Free Worlds Legionnares created</b>\r\n\r\n\r\n\r\nThe actions of the [[DM.Factions[faction_MarikA9],1st Free World Legionnares]] during the raid on the world of Suzano by [[DM.BaseDescriptionDefs[LoreAFFC],AFFC]] a few months ago resulted in a significant increase in recruitment. Despite facing a much larger force from the invading [[DM.Factions[faction_DavionC24],Fifth Syrtis Fusiliers]], the Legionnaires emerged victorious thanks to their aggressive tactics and effective use of combined arms.\r\n\r\nTheir triumph and the honor they earned in this battle strongly resonated among the [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM] and general public, attracting a large number of new recruits from the general public and existing units.\r\n\r\n\r\nThe huge influx of these new recruits has led to the formation of the 2nd Free World Legionnaires, and plans are already underway to establish the 3rd Free World Legionnaires in December later this year.",
+
+        "Icon": "uixTxrTimeLine_IrianIndustries.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "Legionnaire units are not associated with individual states within the Free Worlds League, but rather with the League as a whole. A significant portion of the new recruits consists of vetted and reformed members from the previously disbanded [[DM.BaseDescriptionDefs[LoreDefendersOfAndurien],Defenders of Andurien]], which serves a dual purpose for the Legionnaires. Not only do they act as a means of integrating former rebels into the system, but they also serve as protectors of the Free Worlds League nation.\r\n\r\n\r\nThe equipment for these new units is sourced from disbanded or destroyed units during the Andurien Crises, with a clear tactical emphasis on combined arms warfare.\r\n\r\n\r\n\r\n<i>Stay Informed. Stay Ahead. Your Trusted Source for Breaking News - Irian News Interstellar 15.06.3043</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

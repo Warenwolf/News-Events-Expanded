@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3043-10-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Pirates getting bolder in FWL - Maxwell raided.</b>\r\n\r\n\r\n\r\nThree years after the conclusion of the Andurien War, the Free Worlds Leagues continues to grapple with securing its Periphery border, which has become a prime target for pirates taking advantage of the situation. One recent incident involved the raid on [[DM.SystemDefs[starsystemdef_Maxwell],Maxwell]] by the \"Blades of Death\" pirates three weeks ago. The pirates, led by Jeren Reinsblatt, targeted the Palomalo Munitions Compound.\r\n\r\n\r\nCaptain Ilsa Kharkov and her defending company from the [[DM.Factions[faction_MarikC3],3rd Fusiliers of Oriente]] confronted the company-sized pirate force.\r\n\r\n\r\nIn a questionable move, Captain Kharkov decided to divide her forces, which the experienced pirate leader skillfully exploited. By harassing and slowing down one of the pincers with his reconnaissance lance, he maneuvered his other two lances toward the remaining defenders, gaining local superiority and ultimately forcing them to retreat from the battlefield.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Although the \"Blades of Death\" pirates have been a constant menace to the Free Worlds Leagues' border worlds, not all their operations have been as successful as the one on Maxwell. \r\n\r\n\r\nAn such failed operation that occurred 8 years ago and that also cemented the \"Blades of Death\" pirates as a household name within the Free Worlds Leagues was [[DM.SystemDefs[starsystemdef_Hazeldean],Hazeldean]] incident. It was during this incident that the self-proclaimed \"Kommandant-General\" Tristan Ximander, a prominent figure among the Blades of Death pirates, found himself stranded on Hazeldean. Ximander, known for his piloting of an ancient Griffin 'Mech that had been passed down through generations and armed with incendiary ammunition, resorted to firing indiscriminatly  on civilian homes and structures as he and his lance desperately sought to evade the pursuing forces. Tragically, the resulting smoke and flames claimed the lives of thousands and left many more grievously wounded.\r\n\r\n\r\nEventually apprehended, Ximander stood trial for his heinous crimes and was found guilty of the murder of over 6,000 individuals. Broadcasted live as a horrifying spectacle, the nobility of Hazeldean condemned him to a gruesome destiny, where savage beasts mercilessly tore him apart.\r\n\r\n\r\n\r\nThis has been the CNB October broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

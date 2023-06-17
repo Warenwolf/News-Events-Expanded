@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3043-03-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Mech Mortars to make comback!?</b>\r\n\r\n\r\n\r\nMortars have been in use since time immemorial, employing a high arc trajectory to deliver shells onto their targets. Although they were originally installed in mechs by the Terran Hegemony, they gradually fell out of fashion centuries ago. Nowadays, they can only be found on a few remaining heirloom mechs.\r\n\r\n\r\nIn comparison, LRM (Long-Range Missiles) systems, while having a similar mass to mortars  and despite utilizing more expensive ammunition, are capable of delivering greater firepower over a shorter period of time. Additionally, LRMs offer the advantage of being able to fire both directly and indirectly at the target.",
+
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "However, recent developments indicate that the concept of Mech Mortars has been revitalized through a Federated Commonwealth subsidized project. Our in-house mech experts suggest that this resurgence is likely driven by the increased usage of Active Missile Defense ( [[DM.BaseDescriptionDefs[LoreAMS],AMS]]) systems, which diminish the effectiveness of LRMs.\r\n\r\n\r\nIt remains to be seen whether dedicated mortar-equipped mech variants will make their way into the markets any time soon.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.<\i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

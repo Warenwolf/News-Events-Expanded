@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3043-07-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Allience Industries Diversified's future secured</b>\r\n\r\n\r\n\r\nComStar is delighted to announce its partnership with Alliance Industries Diversified, a highly esteemed [[DM.SystemDefs[starsystemdef_Sevon],Sevon]] company with an extensive portfolio encompassing mining operations, chemical industry and cutting-edge industrial production.\r\n\r\n\r\nThrough this acquisition, ComStar is making an indelible impact on the economic landscape of the [[DM.Factions[faction_Outworld], Outworlds Alliance]]. This partnership will not only create new opportunities but also ensure the utmost safety and security of jobs for the diligent workforce of the Outworlds Alliance, providing stability and prosperity for generations to come.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Alliance Industries Diversified serves as the parent company of Alliance Industries Motors, which is making a name for itself in the Inner Sphere for producing the groundbreaking AM-PRM-RH7 Rock Hound last year, followed by this year's AM-PRM-RH7A Rock Otter variant.\r\n\r\n\r\n\r\nThese unique WorkMechs not only offer utility equipment but also feature an armored platform with twin Shannon Fore SRM-4 launchers to effectively deter pirate and other criminal elements. Since its introduction in 3042, the Rock Hounds and Rock Otters have garnered a widespread customer base across all corners of the Inner Sphere.\r\n\r\n\r\n\r\nThis has been the CNB July broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
