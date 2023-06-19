@@ -4,9 +4,9 @@ The purpose of "News Events Expanded" is to enrich the existing lore content in 
 by introducing additional "events" that showcase the established lore, as published by the owners of the Battletech universe, 
 throughout the game's progression in years. 
 The primary focus has been to fill the gaps that have not been covered by other creators, specifically in 
-the time period of the 3030s and the early 3040s.
+the time period of the 3030s and the first half of 3040s.
 
-Currently it adds 50+ news events between 3030 and 3040s. The plan is to further expand on news item in other time periods, initally early 3040s.
+Currently it adds 80+ news events between 3030 and 3045s, with over 17 000+ words, covering political, military, industrial and technical events as they takes place according to the Battletech cannon. 
 
 
 <img src="https://github.com/Warenwolf/News-Events-Expanded/assets/136007621/3695d5f2-8c21-4c88-8887-0191fac8a3cf" alt="An example of one of the lore events" width="400" height="400">
