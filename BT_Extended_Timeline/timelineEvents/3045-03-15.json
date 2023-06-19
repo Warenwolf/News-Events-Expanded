@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3045-03-15",
+        "Name": "Irian News Interstellar",
+        "Details": "<b>Capellan Confederation efforts in sensor technology bears fruit</b>\r\n\r\n\r\n\r\nFollowing the [[DM.BaseDescriptionDefs[LoreFourthSuccessionWar],Fourth Succession War]], which had severe consequences for the Capellan Confederation, the Capellans have undertaken a deliberate endeavor to replicate the advanced ECM (Electronic Countermeasures) technology that was available during the Star League era. Their objective has been to strengthen their weakened forces. While their efforts resulted in the development of Electronic Warfare Equipment that demonstrated technical proficiency, it did not meet their expectations or requirements.r\n\r\n\r\n\r\nHowever, recent developments indicate that Ceres Metal Industries has successfully recreated the capabilities of the Guardian ECMs with their \"Apple Churchill Golden Shield\" system. Unlike conventional jammers from both past and present times, which indiscriminately block a wide range of signals regardless of their source, the Guardian ECM was capable of disrupting various sensors and detection equipment while leaving friendly units unaffected.",
+
+        "Icon": "uixTxrTimeLine_IrianIndustries.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Irian News Interstellar",
+                        "Details": "Simultaneously, the newly introduced \"Hellespont Interrogator\" system from Hellespont exhibits similarities to the Star League's Beagle Active Probe. This ECCM system enhances a mech's standard sensor suite, enabling it to counter conventional ECMs more effectively while also extending the range of its sensor capabilities.\r\n\r\n\r\nThe successful reproduction of the Beagle Active Probe and Guardian ECM, regarded as [[DM.BaseDescriptionDefs[LoreLosTech],LosTech]] for centuries, represents a significant milestone in the field of sensor technology research.\r\n\r\n\r\n\r\n<i>Stay Informed. Stay Ahead. Your Trusted Source for Breaking News - Irian News Interstellar 15.03.3045</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

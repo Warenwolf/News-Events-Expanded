@@ -1,0 +1,83 @@
+{
+    "Description": {
+        "Id": "3045-01-10",
+        "Name": "Donegal Broadcasting Company",
+        "Details": "<b>Introducing the Cyclops CP-11-A</b>\r\n\r\n\r\nThe [[DM.MechDefs[mechdef_cyclops_CP-10-Z],Cyclops]] battlemech may be dismissed by some amateur mech enthusiasts, but it holds significant value for commanders overseeing regimental and brigade-sized formations. Its Tacticon B-2000 computer system is highly prized [[DM.BaseDescriptionDefs[LoreLosTech],LosTech]] and serves as an effective command vehicle.\r\n\r\n\r\nPowered by a massive Hermes 360 fusion engine, the Cyclops is fast for a ninety-ton assault mech. This mobility comes at a price however, with armor protection being limited when compared to mechs in same class. A decent mix of weapons provides the Cyclops with both long- and short-range firepower but being a command platform it does not have the same staying power in combat like a more of a typical front line assault mech and will suffer when put to task it was never designed for.
+",
+        "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Donegal Broadcasting Company",
+                        "Details": "The recent rediscovery of mass production techniques for Gauss Rifles, exemplified by the Zeus Slingshot, has led several manufacturers to experiment with replacing AC/20s with Gauss Rifles. This modification reduces the overall damage potential but significantly increases the mech's ranged damage output.\r\n\r\n\r\nThe newly observed variant, designated as the [[DM.MechDefs[mechdef_cyclops_CP-11-A],Cyclops CP-11-A]], was first encountered on [[DM.SystemDefs[starsystemdef_Grumium],Grumium]] in Free Rasalhague. It is anticipated that many mech owners will undertake this conversion as Gauss Rifles become more readily available in the general markets. \r\n\r\n\r\n\r\nJanuary 3045 Edition of DBC Monthly News Recap: Stay in the Know!",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
