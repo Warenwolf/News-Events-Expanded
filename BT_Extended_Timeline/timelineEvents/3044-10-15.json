@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3044-10-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Operation Baldur yields mixed results for AFFC: victorious battle of Alphecca contrasts a catastrophic battle of Skandia</b>\r\n\r\n\r\n\r\nIn a series of military engagements collectively known as Operation Baldur, the Armed Forces of the Federated Commonwealth (AFFC) recently encountered a mixed bag of outcomes. While the battle of Alphecca concluded swiftly and triumphantly, the subsequent battle of Skandia proved to be a devastating setback.\r\n\r\n\r\n[[DM.Factions[faction_SteinerC18],11th Donegal Guards]] regiment and the [[DM.Factions[faction_SteinerA],3rd Lyran Guards]] regiment were deployed with the objective of liberating Alphecca, a strategically significant territory that had remained under Draconis Combine control since 3029. The AFFC task force wasted no time in executing their operation, swiftly advancing towards the planetary capital of Galanette Rainbow,  decisively overpowered the planetary militia underway. The planetary militia's attempts to establish a defense of any kind failed and was soon eliminated as military force.[[DM.Factions[faction_KuritaC28],12th Sun Zhang Cadre]] met a similar fate, suffering significant casualties before ultimately retreating to the planet Kessel.",
+
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "However, fortune was not with AFFC when it set its sights on Skandia. Joining forces, the [[DM.Factions[faction_SteinerC22],17th Donegal Guards]] and the \"5th Lyran Guards\" embarked on their mission with high morale and an expectation of minimal opposition. Unfortunately, the AFFC task force soon discovered that they were ill-prepared for the fierce and unrelenting battle that awaited them. \"17th Donegal Guards\" sustained considerable losses but managed to withdraw with the most of their forces intact. The \"5th Lyran Guards\" on other hand were decimated, rendered combat ineffective for all purposes.\r\n\r\n\r\nAccording to our inhouse miltary experst, Operation Baldur stands as a most recent testament to the unpredictable nature of military operations, where triumph and tragedy can coexist on the battlefield. Despite AFFC's optimistic press releases, the setback suffered in Skandia serves as a stark reminder of the challenges and risks inherent in military campaigns.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

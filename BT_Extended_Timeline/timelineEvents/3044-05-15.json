@@ -1,0 +1,82 @@
+{
+    "Description": {
+        "Id": "3044-05-15",
+        "Name": "Irian News Interstellar",
+        "Details": "<b>Capellan mercenaries struck Marlette - Davions suffer great casulties</b>\r\n\r\n\r\n\r\nYesterday, the renowned mercenary company [[DM.BaseDescriptionDefs[LoreMercBigMAC],McCarron's Armored Cavalry]] under Capellan employee, led by Marcus Barton, launched a surprise attack on [[DM.SystemDefs[starsystemdef_Marlette],Marlette]] early in the morning, local time.\r\n\r\n\r\nAs part of their strategic maneuvers, Marcus Barton executed a shaping operation by deploying the [[DM.Factions[faction_LiaoC3],3rd McCarron's Armored Cavalry]] regiment towards the Staval space port. This move aimed to divert the defenders led by [[DM.BaseDescriptionDefs[LoreAFFC],AFFC]] General Lester J. Otto, who lacked a clear assessment of the invading forces' strength and numbers.",
+        "Icon": "uixTxrTimeLine_IrianIndustries.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Irian News Interstellar",
+                        "Details": "Meanwhile, Marcus personally led his own regiment, the [[DM.Factions[faction_LiaoA13],2nd McCarron's Armored Cavalry]], in a northeast direction from their initial landing site, heading towards the Fort Bourgogne citadelle.\r\n\r\nDemonstrating tactical expertise, he skillfully employed his forces to obfuscate the true size of his army. Over the course of the following three intense hours of continuous fighting, Marcus swiftly overpowered various elements of the defending \"Marlette Capellan March Militia\" and \"Marlette 2nd Motorized Infantry Regiment\".\r\n\r\n\r\nThe invaders suffered their first significant casualties while breaching the outer entrenchments encircling Fort Bourgogne, known as The Ring. The attack resulted in the loss of nearly an entire battalion's worth of materiel. By 17:00, the invaders had managed to breach the citadelle's walls, successfully gaining entry into the fort itself.\r\n\r\n\r\nRumors are circulating that Marcus Barton himself was responsible for the demise of General Lester J. Otto, although the exact circumstances remain unclear.\r\n\r\n\r\nHowever, what is known is that this marks the second time McCarron's Armored Cavalry has sacked Fort Bourgogne, the previous occurrence happening 22 years ago. Additionally, the mercenary company has successfully captured an experimental Devastator BattleMech, designated as [[DM.MechDefs[mechdef_devastator_DVS-2],DVS-2]].\r\n\r\nThis captured Devastator appears to be an upgraded variant of the previous [[DM.MechDefs[mechdef_devastator_DVS-1D],DVS-1D]] model.\r\n\r\n\r\n\r\n\r\n<i>Stay Informed. Stay Ahead. Your Trusted Source for Breaking News - Irian News Interstellar 15.05.3044</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

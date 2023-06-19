@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3044-09-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Operation Baldur announced</b>\r\n\r\n\r\n\r\nEarlier today, the press office of the Armed Forces of the Federated Commonwealth ([[DM.BaseDescriptionDefs[LoreAFFC],AFFC]]) organised a brief press conference, during which they unveiled the initiation of \"Operation Baldur\", a strategic endeavor involving no less than four Regimental Combat Teams.\r\n\r\n\r\nAccording to the proceedings of the press conference, the primary objective driving this operation is the reversal of territorial gains for the [[DM.Factions[faction_Kurita],Draconis Combine]], particularly on planets previously liberated during the Fourth Succession War, namely Shionoha, Kimball II, Komephoros, and Asta.",
+
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "The AFFC's High Command further expressed their unequivocal determination to curtail the Draconis Combine's encroachment on [[DM.BaseDescriptionDefs[LoreFederatedCommonwealthAlliance],Commonwealth Alliance]] soil, and to emancipate the subjugated populace.\r\n\r\n\r\nAs more information becomes accessible, we will continue to provide updates to our readers.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

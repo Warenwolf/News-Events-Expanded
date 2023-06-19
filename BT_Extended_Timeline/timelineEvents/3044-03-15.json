@@ -1,0 +1,83 @@
+{
+    "Description": {
+        "Id": "3044-03-15",
+        "Name": "ComStar News Bureau",
+        "Details": "<b>Wakazashi Enterprises has introduced the SL-15R variant of their Slayer heavy aerospace fighters.</b>\r\n\r\n\r\n\r\Wakazashi Enterprises, one of the premier aircraft manufacturers, is once again trying to launch an upgrade to their popular Slayer fighter.\r\n\r\n\r\nIn the past, the company made several attempts to upgrade their ancient Slayer heavy space fighter during the 3rd Succesion War. 
+		However, the SL-15A, SL-15B, and SL-15C variants failed to gain traction among customers.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Unwilling to mess with the popular design after the A/B/C variant debacle, this variant, SL-15R, simply replaces the older AC/10 for a more advanced Imperator Code Red LB 10-X AC and an extra ton of ammunition, a minor change that allows it to be quickly applied to the production line or as a simple field refit for existing fighters\r\n\r\nThis has been the CNB March broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
