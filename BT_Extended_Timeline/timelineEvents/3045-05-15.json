@@ -2,7 +2,7 @@
     "Description": {
         "Id": "3045-05-15",
         "Name": "Donegal Broadcasting Company",
-        "Details": "<b>Introducing the Cyclops CP-11-A</b>\r\n\r\n\r\nRecently Interstellar Expeditions has been under attention due to it seeding the Inner Sphere with satellites, identified as Figyel II type of satellites. Interstellar Expeditions claims that the satellites are primarily intended for mapping and navigation purposes, essentially a rehashed version of a pre–Star League design used for exploration.\r\n\r\n\r\nHowever, the governments within the Inner Sphere are expressing discontent with this, particularly after uncovering the involvement of the Technology Transfer Division of Irian Technologies in the manufacturing process of the satellites. This association raises concerns due to Irian Technologies' recent media scandal involving allegations of industrial espionage.",
+        "Details": "<b>Controversy brews over Interstellar Expeditions' satellites</b>\r\n\r\n\r\nRecently Interstellar Expeditions have been under attention for seeding the Inner Sphere with satellites identified as Figyel II type satellites. Interstellar Expeditions claims that the satellites are primarily intended for mapping and navigation purposes and are essentially a rehashed version of a pre-Star League design used for exploration.\r\n\r\n\r\nHowever, the governments within the Inner Sphere are expressing discontent with this, particularly after uncovering the involvement of the Technology Transfer Division of Irian Technologies in the manufacturing process of the satellites. This association raises concerns due to Irian Technologies' recent media scandal involving allegations of industrial espionage.",
         "Icon": "uixTxrTimeLine_DonegalBroadcastingCompany.png"
     },
     "Scope": "Company",
@@ -35,7 +35,7 @@
                     "Description": {
                         "Id": "continue2",
                         "Name": "Donegal Broadcasting Company",
-                        "Details": "The outrage only increased after attempts to capture the satellites have led to their self-destruction. Interstellar Expeditions defending itself during a recent press conference with that the self-destruct devices were implemented as a drastic yet deemed necessary precaution against unauthorized usage.\r\n\r\n\r\nAs tensions mount, the public eagerly awaits further clarification and assurances from Interstellar Expeditions regarding the intentions and safeguards associated with these enigmatic satellites.\r\n\r\n\r\n\r\May 3045 Edition of DBC Monthly News Recap: Stay in the Know!",
+                        "Details": "The outrage only increased after attempts to capture the satellites led to their self-destruction. Interstellar Expeditions defended itself during a recent press conference by stating that the self-destruct devices were implemented as a drastic yet necessary precaution against unauthorized usage.\r\n\r\n\r\nAs tensions mount, the public eagerly awaits further clarification and assurances from Interstellar Expeditions regarding the intentions and safeguards associated with these enigmatic satellites.\r\n\r\n\r\n\r\nMay 3045 Edition of DBC Monthly News Recap: Stay in the Know!",
                         "Icon": ""
                     },
                     "Weight": 100,

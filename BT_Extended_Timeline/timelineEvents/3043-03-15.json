@@ -36,7 +36,7 @@
                     "Description": {
                         "Id": "continue2",
                         "Name": "Federated News Services",
-                        "Details": "However, recent developments indicate that the concept of Mech Mortars has been revitalized through a Federated Commonwealth subsidized project. Our in-house mech experts suggest that this resurgence is likely driven by the increased usage of Active Missile Defense ( [[DM.BaseDescriptionDefs[LoreAMS],AMS]]) systems, which diminish the effectiveness of LRMs.\r\n\r\n\r\nIt remains to be seen whether dedicated mortar-equipped mech variants will make their way into the markets any time soon.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.<\i>",
+                        "Details": "However, recent developments indicate that the concept of Mech Mortars has been revitalized through a Federated Commonwealth subsidized project. Our in-house mech experts suggest that this resurgence is likely driven by the increased usage of Active Missile Defense ( [[DM.BaseDescriptionDefs[LoreAMS],AMS]]) systems, which diminish the effectiveness of LRMs.\r\n\r\n\r\nIt remains to be seen whether dedicated mortar-equipped mech variants will make their way into the markets any time soon.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.</i>",
                         "Icon": ""
                     },
                     "Weight": 100,
