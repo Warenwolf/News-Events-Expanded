@@ -25,9 +25,9 @@ More detailed instructions and info is found in the wiki: https://github.com/War
 
 **Contributions:** 
 
-Warenwolf/MRB - text, json files  
-Haree76 - background images in non-comstar articles
-AkiraBrahe/Kierk - proofreading, json code correction
+- Warenwolf/MRB - text, json files  
+- Haree76 - background images in non-comstar articles
+- AkiraBrahe/Kierk - proofreading, json code correction
 
 
 **License: CC-BY-NC-SA-4.0**
