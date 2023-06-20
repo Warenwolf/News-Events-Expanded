@@ -2,8 +2,7 @@
     "Description": {
         "Id": "3044-03-15",
         "Name": "ComStar News Bureau",
-        "Details": "<b>Wakazashi Enterprises has introduced the SL-15R variant of their Slayer heavy aerospace fighters.</b>\r\n\r\n\r\n\r\Wakazashi Enterprises, one of the premier aircraft manufacturers, is once again trying to launch an upgrade to their popular Slayer fighter.\r\n\r\n\r\nIn the past, the company made several attempts to upgrade their ancient Slayer heavy space fighter during the 3rd Succesion War. 
-		However, the SL-15A, SL-15B, and SL-15C variants failed to gain traction among customers.",
+        "Details": "<b>Wakazashi Enterprises has introduced the SL-15R variant of their Slayer heavy aerospace fighters.</b>\r\n\r\n\r\n\r\nWakazashi Enterprises, one of the premier aircraft manufacturers, is once again trying to launch an upgrade to their popular Slayer fighter.\r\n\r\n\r\nIn the past, the company made several attempts to upgrade their ancient Slayer heavy space fighter during the 3rd Succesion War. However, the SL-15A, SL-15B, and SL-15C variants failed to gain traction among customers.",
         "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
     },
     "Scope": "Company",
