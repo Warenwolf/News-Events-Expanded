@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3061-03-15",
+        "Name": "Irian News Interstellar",
+        "Details": "<b>Victor Steiner-Davion has returned! - Escalating Violence in St. Ives Crisis.</b>\r\n\r\n\r\n\r\nEarlier today, the ISAP confirmed that [[DM.BaseDescriptionDefs[LoreVictorSteinerDavion3062], Victor Steiner-Davion]] and the TF Serpent have returned to the Inner Sphere. Upon Victor's arrival on Luthien, he was warmly welcomed by Theodore and Omi Kurita in a tasteful ceremony.\r\n\r\nDespite returning as a victor, Victor Steiner-Davion is confronted with the stark reality that his sister has usurped his seat and the nation he once ruled is no more.",
+
+        "Icon": "uixTxrTimeLine_IrianIndustries.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Irian News Interstellar",
+                        "Details": "News of increased violence is pouring in from various regions within the [[DM.BaseDescriptionDefs[LoreStIvesCompact], St. Ives Compact]], fueled by the annexation of Denbar by the Capellan Confederation. The statuses of Vestallas, Brighton, and Nashuar remain uncertain, but reports unanimously describe the ongoing conflicts as exceedingly brutal.\r\n\r\n\r\nDuchess Candace Liao's government has responded to these developments by issuing contract tenders for mercenary companies. The Capellans on other hand, are currently engaged in a propaganda campaign, emphasizing their perspective that the conflict is an internal matter. Needless to say, Duchess Candace Liao holds a contrasting view, seeing it as a war of inter-state aggression. The situation remains unresolved, and the prospects for peace seem remote.\r\n\r\n\r\n\r\n<i>Stay Informed. Stay Ahead. Your Trusted Source for Breaking News - Irian News Interstellar 15.09.3041</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

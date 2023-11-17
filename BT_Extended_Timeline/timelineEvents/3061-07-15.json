@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3061-07-15",
+        "Name": "New Syrtis News Network",
+        "Details": "<b>ComStar expelled from the Marian Hegemony – Three months of inter-clan warfare comes to an end.</b>\r\n\r\n\r\n\r\nOur sources within ComStar confirm that ComStar has been expelled from the Marian Hegemony, which has apparently entered into an exclusive contract with the Word of Blake.",
+        "Icon": "uixTxrTimeLine_NewSyrtisNewsNetwork.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "New Syrtis News Network",
+                        "Details": "The Steel Vipers' seemingly endless string of successes in their war against Jade Falcon came to an abrupt halt with the arrival of fresh reinforcements for Jade Falcon in early June.\r\n\r\nFrom that point onward, the Steel Vipers found themselves in a continuous state of retreat.\r\n\r\n\r\nThe Battle of Waldorf last week proved to be decisive, as the Steel Vipers, despite their numerical superiority, suffered defeat and were compelled to agree to vacate the Inner Sphere entirely.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

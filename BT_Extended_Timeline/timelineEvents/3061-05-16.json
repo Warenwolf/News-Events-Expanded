@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3061-05-16",
+        "Name": "New Syrtis News Network",
+        "Details": "<b>Steel Viper launch another massive offensive</b>\r\n\r\n\r\n\r\nAccording to ISAP claims earlier today, Clan Steel Viper has launched another massive invasion of the Clan Jade Falcon holdings.\r\n\r\nOur in-house military experts anticipate a repeat of earlier battles that resulted in the Falcons falling back on all fronts.",
+        "Icon": "uixTxrTimeLine_NewSyrtisNewsNetwork.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "New Syrtis News Network",
+                        "Details": "The ongoing conflict between the two clans has now spanned 7 weeks and has witnessed Clan Jade Falcon losing worlds to the invading Steel Vipers.\r\n\r\nMany Inner Sphere military experts attribute the tepid performance of Clan Jade Falcon to the cumulative losses endured over years of conflict.\r\n\r\n\r\n\r\nFew other military analysts point out that Clan Steel Viper is likely at risk of overextending without having proper time to consolidate control over the 13 systems captured in the last 6 weeks.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

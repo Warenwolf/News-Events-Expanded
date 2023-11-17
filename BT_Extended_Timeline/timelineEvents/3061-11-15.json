@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3061-11-15",
+        "Name": "New Syrtis News Network",
+        "Details": "<b>Second Whitting Conference reveals political faultlines</b>\r\n\r\n\r\n\r\nWhen the Second Whitting Conference on Tharkad officially concluded ten days ago, official press releases portrayed the entire event as business as usual. However, our sources reveal that behind closed doors, the political drama was anything but amicable.\r\n\r\n\r\nKai Allard-Liao accused First Lord Sun-Tzu Liao of sending discourteous congratulations to Victor for his success in defeating the Clans. After a heated discussion, a vote confirmed the plural view that Victor deserved a proper congratulation, to which the First Lord eventually agreed.",
+        "Icon": "uixTxrTimeLine_NewSyrtisNewsNetwork.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "New Syrtis News Network",
+                        "Details": "When the Conference resumed on November 5, Sun-Tzu nominated Katherine Steiner-Davion as the next First Lord, seconded by Thomas Marik. However, in the resulting vote, Katherine only received support from herself, Thomas, and Kai Allard-Liao, while Theodore Kurita, Candace Liao, and Magnusson voted against her. Precentor Martial Anastasius Focht was called in to cast the deciding vote. Before doing so, he formally announced his resignation as Precentor Martial and introduced his successor, Victor Steiner-Davion, who appeared before the Lords in person to vote against his sister.\r\n\r\n\r\nIn the end, the vote went to Theodore Kurita, making him the second First Lord of the new Star League. He, in turn, appointed Victor as the Commanding General of the Star League Defense Force.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,81 @@
+{
+    "Description": {
+        "Id": "3061-06-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Precentor Martial Trent Arian killed by Com Guard insurgent?</b>\r\n\r\n\r\nAccording to the Word of Blake, the investigation into the assassination of the late Precentor Martial has revealed connections between the explosive device employed in the assassination and a specific Com Guard insurgent.",
+
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "On June 6, 3061, en route to a memorial service for Primus Myndo Waterly, Trent Arian and his aide were killed by an assassin's bomb.\r\n\r\nAs the World of Blake governor of Terra, Arian had survived several prior assassination attempts by Com Guard guerrillas, who saw him as the mastermind behind the WoB takeover of Terra.\r\n\r\n\r\nAccording to WoB press releases, Cameron St. Jamais has been selected as the new Precentor Martial of the Word of Blake.\r\n\r\n\r\n\r\n<i>Federated News Services - delivering the news across the galaxy since 2525.</i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

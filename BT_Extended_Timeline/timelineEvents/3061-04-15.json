@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "3061-04-15",
+        "Name": "Federated News Services",
+        "Details": "<b>Clan infighting?</b>\r\n\r\n\r\n\r\nReports from sources on various planets in Clan Jade Falcon Occupation Zone report of attacks on Jade Falcon forces by Clan Steel Viper.\r\n\r\n\r\nWhile the initial report indicated this to be just another round of violence by Clanners, it quickly became apparent that this is a full-scale war.",
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "So far, the reports indicate that the Steel Vipers' offensive is going well, with a half-dozen worlds being conquered quickly.\r\n\r\nLocal population, perhaps tired of their previous Clan overlords, is not welcoming towards their new masters from Clan Steel Viper. In fact, seeing opportunity in the chaos caused by the fighting, some citizenry is taking to arms.\r\n\r\nHere at FNS, we are committed to closely monitoring and reporting on this developing situation. Follow us for timely updates as we closely follow the latest developments.\r\n\r\n\r\n\r\n <i>Federated News Services - delivering the news across the galaxy since 2525.<\/i>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
