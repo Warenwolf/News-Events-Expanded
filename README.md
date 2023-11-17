@@ -14,7 +14,9 @@ Currently it adds 80+ news events between 3030 and 3045s, with over 17 000+ word
 
 
 Note that these additional events will only be triggered if you use a mod of the Battletech that expands the timeline of the game
-such as "BattleTech Extended 3025-3061" which has been focus of this work.
+such as ["BattleTech Extended 3025-3061"](https://discourse.modsinexile.com/t/battletech-extended-3025-3061-1-9-3-7/426) which has been focus of this work.
+
+Finally, I would mention that I have dabbled into making of Flashpoints which build upon some of the news told through the in-game broadcasts - for those of you who want to see that side of the Battletech universe, I point you to my mod [Flashpoints of the Inner Sphere](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere).
 
 **How to install:** 
 
